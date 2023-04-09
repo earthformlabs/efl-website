@@ -5,5 +5,11 @@ export default <Partial<Config>>{
     fontFamily: {
       sans: ["'Space Grotesk'", "system-ui", "sans-serif"],
     },
+    extend: {
+      backgroundColor: {
+        "ef-green": "#2C3E4B",
+        "ef-mauve": "#060227",
+      },
+    },
   },
 };

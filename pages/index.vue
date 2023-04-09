@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import { useAsset } from "~/composables/useAsset";
 
-  const data = [
+  const approach = [
     {
       title: "Closed-Loop Systems",
       icon: "icons/closed-loop.svg",
@@ -36,10 +36,10 @@
       </div>
     </div>
     <div
-      class="h-screen absolute top-0 left-0 right-0 bottom-0 backgroundImage"
+      class="h-[600px] sm:h-screen absolute top-0 left-0 right-0 bottom-0 backgroundImage"
     />
   </div>
-  <div class="container mx-auto px-4 py-10 grid gap-10">
+  <div class="container mx-auto px-4 py-10 sm:py-20 grid gap-8 sm:gap-16">
     <div class="grid gap-8">
       <div class="grid grid-cols-none sm:grid-cols-2">
         <h2>
@@ -51,7 +51,8 @@
         src="https://place-hold.it/600x400"
         alt=""
         width="100%"
-        class="aspect-video rounded-2xl"
+        height="100%"
+        class="rounded-2xl max-h-[500px]"
       />
     </div>
     <div class="grid grid-cols-none sm:grid-cols-2">
@@ -62,11 +63,17 @@
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
       <div
-        v-for="(item, index) in data"
+        v-for="(item, index) in approach"
         :key="index"
-        class="gradient-bg rounded-2xl px-6 py-10 text-white grid gap-6"
+        class="gradient-bg rounded-2xl px-8 py-10 text-white grid gap-6"
       >
-        <img :src="useAsset(item.icon)" alt="" width="auto" height="100%" />
+        <img
+          :src="useAsset(item.icon)"
+          alt=""
+          width="auto"
+          height="100%"
+          class="h-8 sm:h-full"
+        />
         <p class="font-sans text-base sm:text-xl font-medium">
           {{ item.title }}
         </p>
@@ -75,12 +82,13 @@
     <div class="grid gap-8">
       <h2>Manifesto</h2>
       <img
-        src="https://place-hold.it/600x400"
+        src="~/assets/images/rainforest-landscape.png"
         alt=""
         width="100%"
-        class="aspect-video rounded-2xl"
+        height="100%"
+        class="rounded-2xl max-h-[500px]"
       />
-      <div class="grid grid-cols-none sm:grid-cols-2">
+      <div class="grid grid-cols-none sm:grid-cols-2 gap-4">
         <p class="font-sans text-base sm:text-xl font-medium">
           The health and well-being of the planet and all its inhabitants are
           connected and interdependent. Nurturing and restoring ecosystems and

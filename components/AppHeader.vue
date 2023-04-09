@@ -7,9 +7,8 @@
           alt="EarthForm logo"
         />
       </nuxt-link>
-      <div class="flex gap-4 text-white">
-        <nuxt-link to="/careers">Careers</nuxt-link>
-        <nuxt-link to="/about">About</nuxt-link>
+      <div class="flex gap-8 text-white">
+        <NavLinks />
       </div>
     </div>
   </div>
