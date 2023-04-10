@@ -55,48 +55,40 @@
       <div
         v-for="(item, index) in aboutUs"
         :key="index"
-        class="rounded-2xl px-8 py-10 grid gap-6"
+        class="rounded-2xl p-4 sm:px-8 sm:py-10 flex flex-col gap-6"
       >
         <p class="font-sans text-base sm:text-xl font-medium">
           {{ item.title }}
         </p>
-        <p class="font-thin">
+        <p class="">
           {{ item.desc }}
         </p>
       </div>
     </div>
     <div class="grid gap-8">
       <h2>Team</h2>
-      <p class="font-bold">Founders</p>
-      <div class="grid grid-cols-5 gap-6">
-        <img
-          src="https://place-hold.it/200x200"
-          alt=""
-          width="100%"
-          height="100%"
-          class="rounded-2xl max-h-[500px]"
-        />
-        <img
-          src="https://place-hold.it/200x200"
-          alt=""
-          width="100%"
-          height="100%"
-          class="rounded-2xl max-h-[500px]"
-        />
-        <img
-          src="https://place-hold.it/200x200"
-          alt=""
-          width="100%"
-          height="100%"
-          class="rounded-2xl max-h-[500px]"
-        />
-        <img
-          src="https://place-hold.it/200x200"
-          alt=""
-          width="100%"
-          height="100%"
-          class="rounded-2xl max-h-[500px]"
-        />
+      <h3>Founders</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-5 gap-6">
+        <div class="w-full h-full grid gap-4">
+          <img
+            src="~/assets/images/team/nat.png"
+            alt=""
+            width="100%"
+            height="100%"
+            class="rounded-2xl max-h-[500px]"
+          />
+          <p>Co-founder, CPO</p>
+        </div>
+        <div class="w-full h-full grid gap-4">
+          <img
+            src="~/assets/images/team/nika.png"
+            alt=""
+            width="100%"
+            height="100%"
+            class="rounded-2xl max-h-[500px]"
+          />
+          <p>Co-founder, COO</p>
+        </div>
       </div>
     </div>
   </div>

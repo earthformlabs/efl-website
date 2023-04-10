@@ -4,16 +4,25 @@
   const approach = [
     {
       title: "Closed-Loop Systems",
-      icon: "icons/closed-loop.svg",
+      icon: "closed-loop.svg",
     },
     {
       title: "Meaningful Jobs",
-      icon: "icons/jobs.svg",
+      icon: "jobs.svg",
     },
     {
       title: "Climate Action",
-      icon: "icons/climate.svg",
+      icon: "climate.svg",
     },
+  ];
+
+  const impactList = [
+    "PACKING",
+    "FASHION",
+    "ARCHITECTURE",
+    "CONSTRUCTION",
+    "IMTERIOR DESIGN",
+    "VISUAL MERCHANDISING",
   ];
 </script>
 
@@ -36,7 +45,7 @@
       </div>
     </div>
     <div
-      class="h-[600px] sm:h-screen absolute top-0 left-0 right-0 bottom-0 backgroundImage"
+      class="h-[600px] sm:h-screen absolute top-0 left-0 right-0 bottom-0 missionImage-bg"
     />
   </div>
   <div class="container mx-auto px-4 py-10 sm:py-20 grid gap-8 sm:gap-16">
@@ -47,13 +56,16 @@
           biomaterials
         </h2>
       </div>
-      <img
-        src="https://place-hold.it/600x400"
-        alt=""
-        width="100%"
-        height="100%"
-        class="rounded-2xl max-h-[500px]"
-      />
+      <div class="w-full h-full">
+        <img
+          src="~/assets/images/biomaterials-steps.png"
+          alt=""
+          width="100%"
+          height="100%"
+          class="rounded-2xl max-h-[400px]"
+          loading="lazy"
+        />
+      </div>
     </div>
     <div class="grid grid-cols-none sm:grid-cols-2">
       <h2>
@@ -67,27 +79,43 @@
         :key="index"
         class="gradient-bg rounded-2xl px-8 py-10 text-white grid gap-6"
       >
-        <img
-          :src="useAsset(item.icon)"
-          alt=""
-          width="auto"
-          height="100%"
-          class="h-8 sm:h-full"
-        />
+        <img :src="`/icons/${item.icon}`" loading="lazy" />
         <p class="font-sans text-base sm:text-xl font-medium">
           {{ item.title }}
         </p>
       </div>
     </div>
+    <div class="grid grid-cols-none sm:grid-cols-12 gap-4">
+      <div
+        class="sm:col-span-7 rounded-xl impact-left-bg text-white p-6 grid gap-10"
+      >
+        <h3 class="font-bold">
+          Broad impact across multiple industries and applications.
+        </h3>
+        <div>
+          <p
+            v-for="(impact, index) in impactList"
+            :key="index"
+            class="font-bold"
+          >
+            {{ impact }}
+          </p>
+        </div>
+      </div>
+      <div class="sm:col-span-5 rounded-xl impact-right-bg p-6 min-h-[200px]" />
+    </div>
     <div class="grid gap-8">
       <h2>Manifesto</h2>
-      <img
-        src="~/assets/images/rainforest-landscape.png"
-        alt=""
-        width="100%"
-        height="100%"
-        class="rounded-2xl max-h-[500px]"
-      />
+      <div class="w-full h-full">
+        <img
+          src="~/assets/images/rainforest-landscape.png"
+          alt=""
+          width="100%"
+          height="100%"
+          class="rounded-2xl max-h-[500px]"
+          loading="lazy"
+        />
+      </div>
       <div class="grid grid-cols-none sm:grid-cols-2 gap-4">
         <p class="font-sans text-base sm:text-xl font-medium">
           The health and well-being of the planet and all its inhabitants are
@@ -117,7 +145,29 @@
       #617451 100%
     );
   }
-  .backgroundImage {
+
+  .introImage-bg {
+    background-image: url("~/assets/images/biomaterials-steps.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .impact-left-bg {
+    background-image: url("~/assets/images/biomat-texture.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .impact-right-bg {
+    background-image: url("~/assets/images/biomat-chair.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .missionImage-bg {
     opacity: 0.1;
     background-image: url("~/assets/images/aerial-terrian-landscape.png");
     background-size: cover;
