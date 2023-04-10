@@ -77,7 +77,7 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>Co-founder, CPO</p>
+          <p>Co-Founder</p>
         </div>
         <div class="w-full h-full grid gap-4">
           <img
@@ -87,7 +87,7 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>Co-founder, COO</p>
+          <p>Co-Founder</p>
         </div>
       </div>
     </div>
