@@ -53,7 +53,7 @@
       <div class="grid grid-cols-none sm:grid-cols-2">
         <h2>
           We’re transforming underutilized by-products into high-value
-          biomaterials
+          biomaterials.
         </h2>
       </div>
       <div class="w-full h-full">
