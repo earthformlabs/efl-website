@@ -51,11 +51,12 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <!-- about -->
       <div
         v-for="(item, index) in aboutUs"
         :key="index"
-        class="rounded-2xl p-4 sm:px-8 sm:py-10 flex flex-col gap-6"
+        class="rounded-2xl p-4 md:px-8 md:py-10 flex flex-col gap-6"
       >
         <p class="font-sans text-base sm:text-xl font-medium">
           {{ item.title }}
@@ -65,6 +66,46 @@
         </p>
       </div>
     </div>
+    <!-- sdg -->
+    <div class="flex flex-wrap gap-6 justify-center pb-8">
+      <div>
+        <img
+          src="~/assets/images/sdg/sdg-08.webp"
+          alt=""
+          width="100%"
+          height="auto"
+          class="rounded-xl max-w-[160px]"
+        />
+      </div>
+      <div>
+        <img
+          src="~/assets/images/sdg/sdg-09.webp"
+          alt=""
+          width="100%"
+          height="auto"
+          class="rounded-xl max-w-[160px]"
+        />
+      </div>
+      <div>
+        <img
+          src="~/assets/images/sdg/sdg-12.webp"
+          alt=""
+          width="100%"
+          height="auto"
+          class="rounded-xl max-w-[160px]"
+        />
+      </div>
+      <div>
+        <img
+          src="~/assets/images/sdg/sdg-13.webp"
+          alt=""
+          width="100%"
+          height="auto"
+          class="rounded-xl max-w-[160px]"
+        />
+      </div>
+    </div>
+    <!-- team -->
     <div class="grid gap-8">
       <h2>Team</h2>
       <h3>Founders</h3>
@@ -77,7 +118,7 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>Co-CEO, CIO</p>
+          <p>CEO, CIO</p>
         </div>
         <div class="w-full h-full grid gap-4">
           <img
@@ -87,7 +128,7 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>Co-CEO, COO</p>
+          <p>CEO, COO</p>
         </div>
       </div>
     </div>

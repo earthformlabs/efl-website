@@ -17,7 +17,7 @@
   ];
 
   const impactList = [
-    "PACKING",
+    "PACKAGING",
     "FASHION",
     "ARCHITECTURE",
     "CONSTRUCTION",
@@ -35,7 +35,7 @@
         <div class="grid gap-4">
           <h1>Systems change, not climate change</h1>
           <div>
-            <p class="text-2xl mb-2">Grow better materials with nature</p>
+            <p class="text-2xl mb-2">Grow better materials with nature.</p>
             <p class="">
               Join us in revolutionizing the way we design and produce everyday
               materials to build regenerative futures.
