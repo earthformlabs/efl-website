@@ -3,18 +3,22 @@
 
   const socialIcons = [
     {
-      icon: "icons/twitter.svg",
+      icon: "/icons/twitter.svg",
       link: "twitter/earthformlabs",
     },
     {
-      icon: "icons/linkedin.svg",
+      icon: "/icons/linkedin.svg",
       link: "linkedin/earthformlabs",
     },
     {
-      icon: "icons/instagram.svg",
+      icon: "/icons/instagram.svg",
       link: "instagram/earthformlabs",
     },
   ];
+
+  const getFullYear = () => {
+    return new Date().getFullYear();
+  };
 </script>
 
 <template>
@@ -25,15 +29,20 @@
       <div class="grid gap-8">
         <nuxt-link to="/">
           <h3 class="text-2xl">EarthForm Labs</h3>
-          <p class="font-thin">The Biomaterials Company</p>
+          <p class="font-thin mb-1">The Biomaterials Company</p>
+          <p class="font-thin text-xs">
+            © Copyright EarthForm Labs {{ getFullYear() }}
+          </p>
         </nuxt-link>
         <div class="flex gap-4">
           <nuxt-link
             v-for="(icons, index) in socialIcons"
             :key="index"
             :to="`https://${icons.link}`"
+            target="_blank"
+            rel="noopener"
           >
-            <img :src="useAsset(icons.icon)" />
+            <img :src="icons.icon" />
           </nuxt-link>
         </div>
       </div>
