@@ -21,7 +21,7 @@
     "FASHION",
     "ARCHITECTURE",
     "CONSTRUCTION",
-    "IMTERIOR DESIGN",
+    "INTERIOR DESIGN",
     "VISUAL MERCHANDISING",
   ];
 </script>
