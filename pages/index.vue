@@ -58,7 +58,7 @@
       </div>
       <div class="w-full h-full">
         <img
-          src="~/assets/images/biomaterials-steps.png"
+          src="~/assets/images/biomaterials-steps.webp"
           alt=""
           width="100%"
           height="100%"
@@ -108,7 +108,7 @@
       <h2>Manifesto</h2>
       <div class="w-full h-full">
         <img
-          src="~/assets/images/rainforest-landscape.png"
+          src="~/assets/images/rainforest-landscape.webp"
           alt=""
           width="100%"
           height="100%"
@@ -147,21 +147,21 @@
   }
 
   .introImage-bg {
-    background-image: url("~/assets/images/biomaterials-steps.png");
+    background-image: url("~/assets/images/biomaterials-steps.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .impact-left-bg {
-    background-image: url("~/assets/images/biomat-texture.png");
+    background-image: url("~/assets/images/biomat-texture.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .impact-right-bg {
-    background-image: url("~/assets/images/biomat-chair.png");
+    background-image: url("~/assets/images/biomat-chair.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@
 
   .missionImage-bg {
     opacity: 0.1;
-    background-image: url("~/assets/images/aerial-terrian-landscape.png");
+    background-image: url("~/assets/images/aerial-terrian-landscape.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

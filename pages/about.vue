@@ -105,14 +105,14 @@
   }
 
   .mission-bg-image {
-    background-image: url("~/assets/images/aerial-terrain-landscape-2.png");
+    background-image: url("~/assets/images/aerial-terrain-landscape-2.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .landing-bg-image {
     opacity: 0.1;
-    background-image: url("~/assets/images/mushrooms.png");
+    background-image: url("~/assets/images/mushrooms.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
