@@ -128,7 +128,7 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>Nika Hedrik</p>
+          <p>Nika Hedrick</p>
         </div>
       </div>
     </div>
