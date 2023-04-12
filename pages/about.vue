@@ -118,7 +118,7 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>CEO, CIO</p>
+          <p>Nathakit Sae-Tan</p>
         </div>
         <div class="w-full h-full grid gap-4">
           <img
@@ -128,7 +128,7 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>CEO, COO</p>
+          <p>Nika Hedrik</p>
         </div>
       </div>
     </div>
