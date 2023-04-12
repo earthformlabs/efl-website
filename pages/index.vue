@@ -1,6 +1,4 @@
 <script setup lang="ts">
-  import { useAsset } from "~/composables/useAsset";
-
   const approach = [
     {
       title: "Closed-Loop Systems",

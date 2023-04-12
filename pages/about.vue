@@ -1,6 +1,4 @@
 <script setup lang="ts">
-  import { useAsset } from "~/composables/useAsset";
-
   const aboutUs = [
     {
       title: "Vision",
@@ -104,7 +102,7 @@
         <div class="w-full h-full grid gap-4">
           <img
             src="~/assets/images/team/nat.png"
-            alt=""
+            alt="Nat (Huad)"
             width="100%"
             height="100%"
             class="rounded-2xl max-h-[500px]"
@@ -114,12 +112,22 @@
         <div class="w-full h-full grid gap-4">
           <img
             src="~/assets/images/team/nika.png"
-            alt=""
+            alt="Nika"
             width="100%"
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
           <p>Nika Hedrick</p>
+        </div>
+        <div class="w-full h-full grid gap-4">
+          <img
+            src="~/assets/images/team/gino.png"
+            alt="Gino"
+            width="100%"
+            height="100%"
+            class="rounded-2xl max-h-[500px]"
+          />
+          <p>Makhawee Sukawatano</p>
         </div>
       </div>
     </div>
