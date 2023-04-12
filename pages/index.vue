@@ -35,10 +35,10 @@
         <div class="grid gap-4">
           <h1>Systems change, not climate change</h1>
           <div>
-            <p class="text-2xl mb-2">Grow better materials with nature.</p>
-            <p class="">
-              Join us in revolutionizing the way we design and produce everyday
-              materials to build regenerative futures.
+            <!-- <p class="text-2xl mb-2">Grow better materials with nature.</p> -->
+            <p class="pr-0 sm:pr-20">
+              Join us in revolutionizing the way we design, produce and consume
+              everyday materials to build regenerative futures.
             </p>
           </div>
         </div>

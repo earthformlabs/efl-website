@@ -70,15 +70,6 @@
     <div class="flex flex-wrap gap-6 justify-center pb-8">
       <div>
         <img
-          src="~/assets/images/sdg/sdg-08.webp"
-          alt=""
-          width="100%"
-          height="auto"
-          class="rounded-xl max-w-[160px]"
-        />
-      </div>
-      <div>
-        <img
           src="~/assets/images/sdg/sdg-09.webp"
           alt=""
           width="100%"
