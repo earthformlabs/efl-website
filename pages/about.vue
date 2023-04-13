@@ -2,15 +2,15 @@
   const aboutUs = [
     {
       title: "Vision",
-      desc: "We believe in regenerative futures. This means cultivating an economy that goes beyond sustaining the current state of our environment and aims to actively restore and regenerate ecosystems, communities, and the planet as a whole.",
+      desc: "We believe in a world where humans live in harmony with nature. This means cultivating an economy that goes beyond sustaining the current state of our environment and aims to actively restore and regenerate ecosystems, communities, and the planet as a whole.",
     },
     {
       title: "Values",
-      desc: "Collaboration, transparency, and education are at the core of our operations. Through open innovation initiatives, academic and community partnerships, we’re dedicated to engaging and empowering communities to be active participants in creating regenerative futures.",
+      desc: "We’re guided by the principles of ecological stewardship to create resilient systems that are self-sustaining and regenerative, rather than extractive and degrading. The health and well-being of the planet and all its inhabitants are at the forefront of all decision-making processes.",
     },
     {
       title: "Community",
-      desc: "Community plays a vital role in achieving our vision. We are committed to involving stakeholder communities in our efforts to create regenerative systems and recognize the importance of social responsibility for progress.",
+      desc: "Collaboration, transparency, and education are at the core of our operations. Through open-innovation initiatives, academic and community partnerships, we’re dedicated to engaging and empowering communities to be active participants in cultivating regenerative futures.",
     },
   ];
 </script>
@@ -42,9 +42,10 @@
           <h2>Mission</h2>
           <p>
             Our mission is to build and enable circular economy systems in
-            Thailand to reduce waste and address the global climate crisis.
-            We’re committed to regenerative design and production practices that
-            tend to the well-being of people and the natural world.
+            Thailand to reduce waste, restore ecosystems and address the global
+            climate crisis. We’re committed to regenerative design and
+            production practices that tend to the well-being of people and the
+            natural world.
           </p>
         </div>
       </div>
@@ -107,7 +108,10 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>Nathakit Sae-Tan</p>
+          <div>
+            <p class="font-bold">Nathakit Sae-Tan</p>
+            <p>Chief Innovation Officer</p>
+          </div>
         </div>
         <div class="w-full h-full grid gap-4">
           <img
@@ -117,7 +121,10 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>Nika Hedrick</p>
+          <div>
+            <p class="font-bold">Nika Hedrick</p>
+            <p>Chief Executive Officer</p>
+          </div>
         </div>
         <div class="w-full h-full grid gap-4">
           <img
@@ -127,7 +134,23 @@
             height="100%"
             class="rounded-2xl max-h-[500px]"
           />
-          <p>Makhawee Sukawatano</p>
+          <div>
+            <p class="font-bold">Makhawee Sukawatano</p>
+            <p>Chief Product Officer</p>
+          </div>
+        </div>
+        <div class="w-full h-full grid gap-4">
+          <img
+            src="~/assets/images/team/anya.png"
+            alt="Anya"
+            width="100%"
+            height="100%"
+            class="rounded-2xl max-h-[500px]"
+          />
+          <div>
+            <p class="font-bold">Anya Muangkote</p>
+            <p>Chief Design Officer</p>
+          </div>
         </div>
       </div>
     </div>

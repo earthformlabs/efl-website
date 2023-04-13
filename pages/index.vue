@@ -33,7 +33,7 @@
         <div class="grid gap-4">
           <h1>Systems change, not climate change</h1>
           <div>
-            <!-- <p class="text-2xl mb-2">Grow better materials with nature.</p> -->
+            <p class="text-2xl mb-2">Our Future is Regenerative.</p>
             <p class="pr-0 sm:pr-20">
               Join us in revolutionizing the way we design, produce and consume
               everyday materials to build regenerative futures.
@@ -50,8 +50,8 @@
     <div class="grid gap-8">
       <div class="grid grid-cols-none sm:grid-cols-2">
         <h2>
-          We’re transforming underutilized by-products into high-value
-          biomaterials.
+          We’re transforming underutilized by-products and invasive plant
+          species into high-value biomaterials.
         </h2>
       </div>
       <div class="w-full h-full">
@@ -117,8 +117,8 @@
       <div class="grid grid-cols-none sm:grid-cols-2 gap-4">
         <p class="font-sans text-base sm:text-xl font-medium">
           The health and well-being of the planet and all its inhabitants are
-          connected and interdependent. Nurturing and restoring ecosystems and
-          communities is essential to creating a regenerative future.
+          interdependent. Nurturing and restoring ecosystems and communities are
+          essential foundations to creating a regenerative future.
         </p>
         <p>
           We recognize that the impacts of climate change are not felt equally
