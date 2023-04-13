@@ -109,8 +109,8 @@
             class="rounded-2xl max-h-[500px]"
           />
           <div>
-            <p class="font-bold">Nathakit Sae-Tan</p>
-            <p>Chief Innovation Officer</p>
+            <p class="text-sm font-bold">Nathakit Sae-Tan</p>
+            <p class="text-sm">Chief Innovation Officer</p>
           </div>
         </div>
         <div class="w-full h-full grid gap-4">
@@ -122,8 +122,8 @@
             class="rounded-2xl max-h-[500px]"
           />
           <div>
-            <p class="font-bold">Nika Hedrick</p>
-            <p>Chief Executive Officer</p>
+            <p class="text-sm font-bold">Nika Hedrick</p>
+            <p class="text-sm">Chief Executive Officer</p>
           </div>
         </div>
         <div class="w-full h-full grid gap-4">
@@ -135,8 +135,8 @@
             class="rounded-2xl max-h-[500px]"
           />
           <div>
-            <p class="font-bold">Makhawee Sukawatano</p>
-            <p>Chief Product Officer</p>
+            <p class="text-sm font-bold">Makhawee Sukawatano</p>
+            <p class="text-sm">Chief Product Officer</p>
           </div>
         </div>
         <div class="w-full h-full grid gap-4">
@@ -148,8 +148,8 @@
             class="rounded-2xl max-h-[500px]"
           />
           <div>
-            <p class="font-bold">Anya Muangkote</p>
-            <p>Chief Design Officer</p>
+            <p class="text-sm font-bold">Anya Muangkote</p>
+            <p class="text-sm">Chief Design Officer</p>
           </div>
         </div>
       </div>
