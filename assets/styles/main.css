@@ -7,12 +7,14 @@
     font-family: "Space Grotesk";
     src: local("../fonts/SpaceGrotesk-VariableFont_wght.ttf"),
       url(../fonts/SpaceGrotesk-VariableFont_wght.ttf) format("truetype");
+    font-display: swap;
   }
 
   @font-face {
     font-family: "Raleway";
     src: local("../fonts/Raleway-VariableFont_wght.ttf"),
       url(../fonts/Raleway-VariableFont_wght.ttf) format("truetype");
+    font-display: swap;
   }
 
   h1 {
