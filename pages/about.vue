@@ -125,7 +125,7 @@
               alt="Nat (Huad)"
               width="100%"
               height="100%"
-              class="rounded-2xl max-h-[500px]"
+              class="rounded-2xl max-h-[500px] w-full h-full"
             />
             <div>
               <nuxt-link
@@ -144,7 +144,7 @@
               alt="Nika"
               width="100%"
               height="100%"
-              class="rounded-2xl max-h-[500px]"
+              class="rounded-2xl max-h-[500px] w-full h-full"
             />
             <div>
               <p class="text-sm sm:text-xs font-bold">Nika Hedrick</p>
@@ -157,7 +157,7 @@
               alt="Gino"
               width="100%"
               height="100%"
-              class="rounded-2xl max-h-[500px]"
+              class="rounded-2xl max-h-[500px] w-full h-full"
             />
             <div>
               <p class="text-sm sm:text-xs font-bold">Makhawee Sukawatano</p>
@@ -170,7 +170,7 @@
               alt="Anya"
               width="100%"
               height="100%"
-              class="rounded-2xl max-h-[500px]"
+              class="rounded-2xl max-h-[500px] w-full h-full"
             />
             <div>
               <p class="text-sm sm:text-xs font-bold">Anya Muangkote</p>
