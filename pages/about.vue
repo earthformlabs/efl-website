@@ -70,7 +70,7 @@
       <div>
         <img
           src="~/assets/images/sdg/sdg-09.webp"
-          alt=""
+          alt="SDG 9"
           width="100%"
           height="auto"
           class="rounded-xl max-w-[160px]"
@@ -79,7 +79,7 @@
       <div>
         <img
           src="~/assets/images/sdg/sdg-12.webp"
-          alt=""
+          alt="SDG 12"
           width="100%"
           height="auto"
           class="rounded-xl max-w-[160px]"
@@ -88,7 +88,25 @@
       <div>
         <img
           src="~/assets/images/sdg/sdg-13.webp"
-          alt=""
+          alt="SDG 13"
+          width="100%"
+          height="auto"
+          class="rounded-xl max-w-[160px]"
+        />
+      </div>
+      <div>
+        <img
+          src="~/assets/images/sdg/sdg-14.webp"
+          alt="SDG 14"
+          width="100%"
+          height="auto"
+          class="rounded-xl max-w-[160px]"
+        />
+      </div>
+      <div>
+        <img
+          src="~/assets/images/sdg/sdg-15.webp"
+          alt="SDG 15"
           width="100%"
           height="auto"
           class="rounded-xl max-w-[160px]"
@@ -98,58 +116,66 @@
     <!-- team -->
     <div class="grid gap-8">
       <h2>Team</h2>
-      <h3>Founders</h3>
-      <div class="grid grid-cols-2 sm:grid-cols-5 gap-6">
-        <div class="w-full h-full grid gap-4">
-          <img
-            src="~/assets/images/team/nat.png"
-            alt="Nat (Huad)"
-            width="100%"
-            height="100%"
-            class="rounded-2xl max-h-[500px]"
-          />
-          <div>
-            <p class="text-sm font-bold">Nathakit Sae-Tan</p>
-            <p class="text-sm">Chief Innovation Officer</p>
+      <div>
+        <h3 class="mb-4">Founders</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-5 gap-6">
+          <div class="w-full h-full grid gap-4">
+            <img
+              src="~/assets/images/team/nat.png"
+              alt="Nat (Huad)"
+              width="100%"
+              height="100%"
+              class="rounded-2xl max-h-[500px]"
+            />
+            <div>
+              <nuxt-link
+                to="https://www.linkedin.com/in/nathakits/"
+                target="_blank"
+                rel="noopener"
+              >
+                <p class="text-sm sm:text-xs font-bold">Nathakit Sae-Tan</p>
+              </nuxt-link>
+              <p class="text-sm sm:text-xs">Co-CEO</p>
+            </div>
           </div>
-        </div>
-        <div class="w-full h-full grid gap-4">
-          <img
-            src="~/assets/images/team/nika.png"
-            alt="Nika"
-            width="100%"
-            height="100%"
-            class="rounded-2xl max-h-[500px]"
-          />
-          <div>
-            <p class="text-sm font-bold">Nika Hedrick</p>
-            <p class="text-sm">Chief Executive Officer</p>
+          <div class="w-full h-full grid gap-4">
+            <img
+              src="~/assets/images/team/nika.png"
+              alt="Nika"
+              width="100%"
+              height="100%"
+              class="rounded-2xl max-h-[500px]"
+            />
+            <div>
+              <p class="text-sm sm:text-xs font-bold">Nika Hedrick</p>
+              <p class="text-sm sm:text-xs">Co-CEO</p>
+            </div>
           </div>
-        </div>
-        <div class="w-full h-full grid gap-4">
-          <img
-            src="~/assets/images/team/gino.png"
-            alt="Gino"
-            width="100%"
-            height="100%"
-            class="rounded-2xl max-h-[500px]"
-          />
-          <div>
-            <p class="text-sm font-bold">Makhawee Sukawatano</p>
-            <p class="text-sm">Chief Product Officer</p>
+          <div class="w-full h-full grid gap-4">
+            <img
+              src="~/assets/images/team/gino.png"
+              alt="Gino"
+              width="100%"
+              height="100%"
+              class="rounded-2xl max-h-[500px]"
+            />
+            <div>
+              <p class="text-sm sm:text-xs font-bold">Makhawee Sukawatano</p>
+              <p class="text-sm sm:text-xs">Chief Product Officer</p>
+            </div>
           </div>
-        </div>
-        <div class="w-full h-full grid gap-4">
-          <img
-            src="~/assets/images/team/anya.png"
-            alt="Anya"
-            width="100%"
-            height="100%"
-            class="rounded-2xl max-h-[500px]"
-          />
-          <div>
-            <p class="text-sm font-bold">Anya Muangkote</p>
-            <p class="text-sm">Chief Design Officer</p>
+          <div class="w-full h-full grid gap-4">
+            <img
+              src="~/assets/images/team/anya.png"
+              alt="Anya"
+              width="100%"
+              height="100%"
+              class="rounded-2xl max-h-[500px]"
+            />
+            <div>
+              <p class="text-sm sm:text-xs font-bold">Anya Muangkote</p>
+              <p class="text-sm sm:text-xs">Chief Design Officer</p>
+            </div>
           </div>
         </div>
       </div>
@@ -175,7 +201,7 @@
   }
   .landing-bg-image {
     opacity: 0.1;
-    background-image: url("~/assets/images/mushrooms.webp");
+    background-image: url("~/assets/images/mushroom-landing.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
