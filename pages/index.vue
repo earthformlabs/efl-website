@@ -55,14 +55,27 @@
         </h2>
       </div>
       <div class="w-full h-full">
-        <img
+        <!-- <img
           src="~/assets/images/biomaterials-steps.webp"
-          alt=""
+          alt="Raw materials for biomaterials"
           width="100%"
           height="100%"
           class="rounded-2xl max-h-[400px]"
           loading="lazy"
-        />
+        /> -->
+        <div class="grid grid-cols-3 rounded-lg">
+          <v-img
+            cover
+            :src="'/images/rawmat-mushroom.png'"
+            class="rounded-l-lg darken-bg"
+          />
+          <v-img cover :src="'/images/rawmat-rice.png'" class="darken-bg" />
+          <v-img
+            cover
+            :src="'/images/rawmat-coconut.png'"
+            class="rounded-r-lg darken-bg"
+          />
+        </div>
       </div>
     </div>
     <div class="grid grid-cols-none sm:grid-cols-2">
@@ -77,7 +90,14 @@
         :key="index"
         class="gradient-bg rounded-2xl px-8 py-10 text-white grid gap-6"
       >
-        <img :src="`/icons/${item.icon}`" loading="lazy" />
+        <img
+          :src="`/icons/${item.icon}`"
+          loading="lazy"
+          width="100%"
+          height="100%"
+          class="max-h-[60px] max-w-[60px]"
+          :alt="item.icon"
+        />
         <p class="font-sans text-base sm:text-xl font-medium">
           {{ item.title }}
         </p>
@@ -107,7 +127,7 @@
       <div class="w-full h-full">
         <img
           src="~/assets/images/rainforest-landscape.webp"
-          alt=""
+          alt="Forest landscape in southern Thailand"
           width="100%"
           height="100%"
           class="rounded-2xl max-h-[500px]"
@@ -171,5 +191,15 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .darken-bg {
+    filter: brightness(70%);
+    background: linear-gradient(
+      134.98deg,
+      #060227 0%,
+      #2c3e4b 52.6%,
+      #617451 100%
+    );
   }
 </style>
