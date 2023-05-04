@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     transpile: ["vuetify"],
   },
   modules: [
+    "nuxt-gtag",
     "@nuxtjs/tailwindcss",
     async (options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config) =>
@@ -15,4 +16,8 @@ export default defineNuxtConfig({
       );
     },
   ],
+  //@ts-ignore
+  gtag: {
+    id: "G-HXF78YG8DP",
+  },
 });
