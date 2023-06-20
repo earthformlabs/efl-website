@@ -1,7 +1,7 @@
 {
-  "name": "EarthForm Labs",
-  "short_name": "EarthForm Labs",
-  "description": "EarthForm Labs company website",
+  "name": "EarthForm",
+  "short_name": "EarthForm",
+  "description": "EarthForm company website",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

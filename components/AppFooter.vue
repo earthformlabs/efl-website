@@ -28,10 +28,10 @@
     >
       <div class="grid gap-8">
         <nuxt-link to="/">
-          <h3 class="text-2xl">EarthForm Labs</h3>
+          <h3 class="text-2xl">EarthForm</h3>
           <p class="font-thin mb-1">The Biomaterials Company</p>
           <p class="font-thin text-xs">
-            © Copyright EarthForm Labs {{ getFullYear() }}
+            © Copyright EarthForm {{ getFullYear() }}
           </p>
         </nuxt-link>
         <div class="flex gap-4">

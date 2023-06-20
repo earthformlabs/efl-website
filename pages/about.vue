@@ -1,4 +1,14 @@
 <script setup lang="ts">
+  useSeoMeta({
+    title: "EarthForm - About Us",
+    ogTitle: "EarthForm - About Us",
+    description:
+      "Transforming underutilized by-products and invasive plant species into high-value biomaterials.",
+    ogDescription:
+      "Transforming underutilized by-products and invasive plant species into high-value biomaterials.",
+    ogImage: "https://earthformlabs.com/ef-logo-square.png",
+  });
+
   const aboutUs = [
     {
       title: "Vision",
