@@ -29,7 +29,6 @@
       <div class="grid gap-8">
         <nuxt-link to="/">
           <h3 class="text-2xl">EarthForm</h3>
-          <p class="font-thin mb-1">The Biomaterials Company</p>
           <p class="font-thin text-xs">
             © Copyright EarthForm {{ getFullYear() }}
           </p>
