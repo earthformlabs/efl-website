@@ -4,15 +4,15 @@
   const socialIcons = [
     {
       icon: "/icons/twitter.svg",
-      link: "twitter/earthformlabs",
+      link: "twitter.com/earthformlabs",
     },
     {
       icon: "/icons/linkedin.svg",
-      link: "linkedin/earthformlabs",
+      link: "linkedin.com/company/earthform-labs",
     },
     {
       icon: "/icons/instagram.svg",
-      link: "instagram/earthformlabs",
+      link: "instagram.com/earthformlabs",
     },
   ];
 
@@ -37,7 +37,7 @@
           <nuxt-link
             v-for="(icons, index) in socialIcons"
             :key="index"
-            :to="`https://${icons.link}`"
+            :to="`https://www.${icons.link}`"
             target="_blank"
             rel="noopener"
           >
