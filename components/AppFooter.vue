@@ -3,16 +3,16 @@
 
   const socialIcons = [
     {
-      icon: "/icons/twitter.svg",
-      link: "twitter.com/earthformlabs",
+      icon: "/icons/instagram.svg",
+      link: "instagram.com/earthformlabs",
     },
     {
       icon: "/icons/linkedin.svg",
       link: "linkedin.com/company/earthform-labs",
     },
     {
-      icon: "/icons/instagram.svg",
-      link: "instagram.com/earthformlabs",
+      icon: "/icons/twitter.svg",
+      link: "twitter.com/earthformlabs",
     },
   ];
 
