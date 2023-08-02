@@ -10,10 +10,10 @@
       icon: "/icons/linkedin.svg",
       link: "linkedin.com/company/earthform-labs",
     },
-    {
-      icon: "/icons/twitter.svg",
-      link: "twitter.com/earthformlabs",
-    },
+    // {
+    //   icon: "/icons/twitter.svg",
+    //   link: "twitter.com/earthformlabs",
+    // },
   ];
 
   const getFullYear = () => {
