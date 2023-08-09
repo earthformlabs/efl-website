@@ -23,7 +23,7 @@
           <div class="grid col-span-3 gap-4">
             <h1>{{ tagline }}</h1>
             <div>
-              <p class="text-2xl mb-2 max-w-">{{ subtile }}</p>
+              <p class="text-2xl mb-2 max-w-[60%]">{{ subtile }}</p>
               <p class="pr-0 sm:pr-20">
                 {{ description }}
               </p>

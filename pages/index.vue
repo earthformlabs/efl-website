@@ -38,20 +38,16 @@
     <div class="container mx-auto px-4 py-10 sm:py-20 grid gap-8 sm:gap-16">
       <div class="grid gap-8">
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <h2>
-            We’re transforming underutilized by-products and invasive plant
-            species into high-value biomaterials.
-          </h2>
+          <h2>The materials we interact with on a daily basis matter.</h2>
+        </div>
+        <div class="grid grid-cols-none sm:grid-cols-2">
+          <p>
+            How we design and the materials we choose for our everyday products
+            determine the present and future outcomes of human and non-human
+            life and overall planetary health.
+          </p>
         </div>
         <div class="w-full h-full">
-          <!-- <img
-            src="~/assets/images/biomaterials-steps.webp"
-            alt="Raw materials for biomaterials"
-            width="100%"
-            height="100%"
-            class="rounded-2xl max-h-[400px]"
-            loading="lazy"
-          /> -->
           <div class="grid grid-cols-3 rounded-lg">
             <v-img
               cover
