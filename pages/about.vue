@@ -49,7 +49,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-wrap gap-6 justify-center pb-8">
+      <div class="grid grid-cols-3 sm:grid-cols-5 gap-6 justify-center pb-8">
         <v-img
           src="/images/sdg/sdg-09.png"
           alt="SDG 9"
