@@ -1,28 +1,4 @@
 <script setup lang="ts">
-  const approach = [
-    {
-      title: "Closed-Loop Systems",
-      icon: "closed-loop.svg",
-    },
-    {
-      title: "Meaningful Jobs",
-      icon: "jobs.svg",
-    },
-    {
-      title: "Climate Action",
-      icon: "climate.svg",
-    },
-  ];
-
-  const impactList = [
-    "PACKAGING",
-    "FASHION",
-    "ARCHITECTURE",
-    "CONSTRUCTION",
-    "INTERIOR DESIGN",
-    "VISUAL MERCHANDISING",
-  ];
-
   const herocardData = {
     tagline: "Design-Focused, Impact-Driven",
     subtile:
@@ -120,53 +96,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-  .gradient-bg {
-    background: linear-gradient(
-      134.98deg,
-      #060227 0%,
-      #2c3e4b 52.6%,
-      #617451 100%
-    );
-  }
-
-  .introImage-bg {
-    background-image: url("~/assets/images/biomaterials-steps.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .impact-left-bg {
-    background-image: url("~/assets/images/biomat-texture.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .impact-right-bg {
-    background-image: url("~/assets/images/biomat-chair.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .missionImage-bg {
-    opacity: 0.1;
-    background-image: url("~/assets/images/aerial-terrian-landscape.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .darken-bg {
-    filter: brightness(70%);
-    background: linear-gradient(
-      134.98deg,
-      #060227 0%,
-      #2c3e4b 52.6%,
-      #617451 100%
-    );
-  }
-</style>

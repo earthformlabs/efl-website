@@ -13,12 +13,3 @@
     >Work with us</v-btn
   >
 </template>
-
-<!-- <style scoped>
-  a:hover {
-    text-decoration: underline;
-  }
-  .router-link-active {
-    text-decoration: underline;
-  }
-</style> -->
