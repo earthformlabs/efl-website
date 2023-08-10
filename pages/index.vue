@@ -31,16 +31,18 @@
           <v-img contain :src="'/images/solar-punk.png'" class="rounded-2xl" />
         </div>
       </div>
-      <div class="grid grid-cols-none sm:grid-cols-2">
-        <h2 class="cobalt-blue">Mycelium to Biomaterials</h2>
-      </div>
-      <div class="grid grid-cols-none sm:grid-cols-2">
-        <p class="very-dark-blue">
-          At EarthForm, we harness the technology of mycelium to develop
-          compostable, non-toxic, and high-performance biomaterials for
-          lifestyle, interior design, merchandising and packaging products. We
-          envision a world surrounded by materials conducive to life on Earth.
-        </p>
+      <div>
+        <div class="grid grid-cols-none sm:grid-cols-2 mb-6">
+          <h2 class="cobalt-blue">Mycelium to Biomaterials</h2>
+        </div>
+        <div class="grid grid-cols-none sm:grid-cols-2">
+          <p class="very-dark-blue">
+            At EarthForm, we harness the technology of mycelium to develop
+            compostable, non-toxic, and high-performance biomaterials for
+            lifestyle, interior design, merchandising and packaging products. We
+            envision a world surrounded by materials conducive to life on Earth.
+          </p>
+        </div>
       </div>
       <div class="grid gap-6">
         <v-img
