@@ -15,12 +15,12 @@
     >
       <v-img
         cover
-        class="px-32 h-full sm:max-h-[400px] md:max-h-[500px] lg:max-h-[700px] rounded-2xl flex justify-center items-center gradient-bg text-white"
+        class="px-10 sm:px-32 h-full sm:max-h-[400px] md:max-h-[500px] lg:max-h-[700px] rounded-2xl flex justify-center items-center gradient-bg text-white"
         :src="img"
         :lazy-src="img"
       >
         <div class="grid grid-cols-none sm:grid-cols-6">
-          <div class="grid col-span-5 gap-4">
+          <div class="grid sm:col-span-5 gap-4">
             <h1 class="mb-4">{{ tagline }}</h1>
           </div>
           <div class="grid col-span-3">
