@@ -46,13 +46,14 @@
           <v-img :src="'/images/mycelium-roots.png'" class="rounded-2xl" />
           <div>
             <p class="very-dark-blue mb-4">
-              Mycelium are a network of thread-like structures called hyphae -
-              they are the root structures of fungi.
+              Not all composites are created equal, it’s a class of materials
+              and the outputs are determined by the ingredients, microstructure
+              and processing conditions.
             </p>
             <p class="very-dark-blue">
-              By allowing mycelium to grow and bind together organic waste
-              substrate, such as agricultural byproducts or food waste, into a
-              solid structure, mycelium composite is created.
+              Our proprietary formulas are engineered to produce properties that
+              result in high-performing for the functions of our products. It’s
+              design, driven by nature and empowered by science. 
             </p>
           </div>
         </div>
@@ -62,7 +63,7 @@
         <div class="grid grid-cols-none sm:grid-cols-2">
           <p class="very-dark-blue">
             At EarthForm, we harness the technology of mycelium to develop
-            compostable, non-toxic, and high-performance biomaterials for
+            compostable, non-toxic, and high-performing biomaterials for
             lifestyle, interior design, merchandising and packaging products. We
             envision a world surrounded by materials conducive to life on Earth.
           </p>
