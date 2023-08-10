@@ -28,7 +28,7 @@
           <v-img
             contain
             :src="'/images/regen-futures.svg'"
-            class="rounded-2xl mx-auto w-full col-span-2"
+            class="rounded-2xl mx-auto w-full col-span-5 sm:col-span-2"
             max-width="180px"
           />
           <p class="very-dark-blue mb-4 col-span-4">
@@ -43,7 +43,7 @@
           <v-img
             contain
             :src="'/images/regen-districts.svg'"
-            class="rounded-2xl mx-auto w-full col-span-2"
+            class="rounded-2xl mx-auto w-full col-span-5 sm:col-span-2"
             max-width="200px"
           />
           <p class="very-dark-blue mb-4 col-span-4">
@@ -58,7 +58,7 @@
           <v-img
             contain
             :src="'/images/ctrl+r.svg'"
-            class="rounded-2xl mx-auto w-full col-span-2"
+            class="rounded-2xl mx-auto w-full col-span-5 sm:col-span-2"
             max-width="160px"
           />
           <p class="very-dark-blue mb-4 col-span-4">
