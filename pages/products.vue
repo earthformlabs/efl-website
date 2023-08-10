@@ -1,8 +1,18 @@
 <script setup lang="ts">
+  useSeoMeta({
+    title: "EarthForm - Products",
+    ogTitle: "EarthForm - Products",
+    description:
+      "Transforming underutilized by-products and invasive plant species into high-value biomaterials.",
+    ogDescription:
+      "Transforming underutilized by-products and invasive plant species into high-value biomaterials.",
+    ogImage: "https://earthformlabs.com/ef-logo-square.png",
+  });
+
   const herocardData = {
     tagline: "Growing Materials for Resilient & Regenerative Futures",
     subtile:
-      "EarthForm is stewarding the process of building adaptive societies with biomaterials. ",
+      "EarthForm is stewarding the process of building adaptive societies with biomaterials.",
     img: "/images/mushroom-gradient.png",
   };
 </script>

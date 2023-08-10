@@ -1,15 +1,16 @@
 <script setup lang="ts">
-  const navList = ["Products", "Projects", "About"];
+  const navList = ["Products", "Projects", "Work with us", "About"];
+
+  const transformLinks: void = navList.forEach((nav) => {
+    return nav.toLowerCase().replace(/\s/g, "-");
+  });
 </script>
 
 <template>
   <nuxt-link
     v-for="(nav, index) in navList"
-    :to="`/${nav.toLowerCase()}`"
+    :to="`/${nav.toLowerCase().replace(/\s/g, `-`)}`"
     :key="index"
     >{{ nav }}</nuxt-link
-  >
-  <v-btn rounded flat variant="outlined" color="" to="/work-with-us"
-    >Work with us</v-btn
   >
 </template>
