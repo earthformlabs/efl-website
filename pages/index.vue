@@ -66,20 +66,20 @@
       </div>
       <div class="grid gap-6">
         <v-img
-          src="/images/rawmat-coconut.png"
+          src="/images/mycel-1.png"
           cover
           class="rounded-xl"
           max-height="300px"
         />
         <div class="grid grid-cols-none sm:grid-cols-2 gap-4">
           <v-img
-            src="/images/rawmat-coconut.png"
+            src="/images/mycel-2.png"
             cover
             class="rounded-xl"
             max-height="300px"
           />
           <v-img
-            src="/images/rawmat-coconut.png"
+            src="/images/mycel-3.png"
             cover
             class="rounded-xl"
             max-height="300px"
@@ -88,9 +88,9 @@
       </div>
       <div class="grid gap-8">
         <h2 class="cobalt-blue">Responsibly Sourced Byproducts</h2>
-        <h3 class="font-normal very-dark-blue" cover>
+        <p class="font-normal very-dark-blue" cover>
           Our raw materials are sourced locally in Thailand.
-        </h3>
+        </p>
         <nuxt-link
           to="/products#responsibly-sourced-byproducts"
           class="cobalt-blue"
@@ -98,19 +98,19 @@
         >
         <div class="grid grid-cols-none sm:grid-cols-3 gap-4">
           <v-img
-            src="/images/rawmat-coconut.png"
+            src="/images/rawmat-rice.png"
             cover
             class="rounded-xl"
             max-height="300px"
           />
           <v-img
-            src="/images/rawmat-coconut.png"
+            src="/images/rawmat-construction.png"
             cover
             class="rounded-xl"
             max-height="300px"
           />
           <v-img
-            src="/images/rawmat-coconut.png"
+            src="/images/rawmat-stem.png"
             cover
             class="rounded-xl"
             max-height="300px"
