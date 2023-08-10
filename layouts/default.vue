@@ -11,10 +11,12 @@
 </script>
 
 <template>
-  <div>
-    <AppHeader />
-    <slot />
-    <ContactBanner />
-    <AppFooter />
-  </div>
+  <v-layout>
+    <v-main>
+      <AppHeader />
+      <slot />
+      <ContactBanner />
+      <AppFooter />
+    </v-main>
+  </v-layout>
 </template>
