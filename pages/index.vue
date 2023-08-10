@@ -11,7 +11,9 @@
 <template>
   <div class="pale-yellow-bg">
     <HeroCard v-bind="herocardData" />
-    <div class="container mx-auto px-4 py-10 sm:py-20 grid gap-8 sm:gap-16">
+    <div
+      class="container mx-auto px-4 sm:px-20 py-10 sm:py-20 grid gap-8 sm:gap-16"
+    >
       <div class="grid gap-8">
         <div class="grid grid-cols-none sm:grid-cols-2">
           <h2 class="cobalt-blue">

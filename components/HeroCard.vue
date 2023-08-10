@@ -21,7 +21,7 @@
       >
         <div class="grid grid-cols-none sm:grid-cols-6">
           <div class="grid sm:col-span-5 gap-4">
-            <h1 class="mb-4">{{ tagline }}</h1>
+            <h1 class="mb-4 text-4xl">{{ tagline }}</h1>
           </div>
           <div class="grid col-span-3">
             <div>
@@ -29,7 +29,7 @@
               <p class="pr-0 sm:pr-20">
                 {{ description }}
               </p>
-              <v-btn v-if="email_cta" rounded flat>Stay updated</v-btn>
+              <!-- <v-btn v-if="email_cta" rounded flat>Stay updated</v-btn> -->
             </div>
           </div>
         </div>
