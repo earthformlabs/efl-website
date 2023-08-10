@@ -28,7 +28,7 @@
     subtile:
       "Inspired by nature, we’re designing and producing the next generation of materials for a healthy planet.",
     img: "/images/aerial-terrain-gradient.png",
-    email_cta: false,
+    email_cta: true,
   };
 </script>
 
@@ -38,104 +38,83 @@
     <div class="container mx-auto px-4 py-10 sm:py-20 grid gap-8 sm:gap-16">
       <div class="grid gap-8">
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <h2>The materials we interact with on a daily basis matter.</h2>
+          <h2 class="cobalt-blue">
+            “The materials we interact with on a daily basis matter.”
+          </h2>
         </div>
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <p>
+          <p class="very-dark-blue">
             How we design and the materials we choose for our everyday products
             determine the present and future outcomes of human and non-human
             life and overall planetary health.
           </p>
         </div>
-        <div class="w-full h-full">
-          <div class="grid grid-cols-3 rounded-lg">
-            <v-img
-              cover
-              :src="'/images/rawmat-mushroom.png'"
-              class="rounded-l-lg darken-bg"
-            />
-            <v-img cover :src="'/images/rawmat-rice.png'" class="darken-bg" />
-            <v-img
-              cover
-              :src="'/images/rawmat-coconut.png'"
-              class="rounded-r-lg darken-bg"
-            />
-          </div>
+        <div class="w-full rounded-lg">
+          <v-img contain :src="'/images/solar-punk.png'" class="rounded-2xl" />
         </div>
       </div>
       <div class="grid grid-cols-none sm:grid-cols-2">
-        <h2>
-          A holistic approach to nature-inspired innovation and value creation
-          for people and the planet.
-        </h2>
+        <h2 class="cobalt-blue">Mycelium to Biomaterials</h2>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div
-          v-for="(item, index) in approach"
-          :key="index"
-          class="gradient-bg rounded-2xl px-8 py-10 text-white grid gap-6"
-        >
-          <img
-            :src="`/icons/${item.icon}`"
-            loading="lazy"
-            width="100%"
-            height="100%"
-            class="max-h-[60px] max-w-[60px]"
-            :alt="item.icon"
-          />
-          <p class="font-sans text-base sm:text-xl font-medium">
-            {{ item.title }}
-          </p>
-        </div>
+      <div class="grid grid-cols-none sm:grid-cols-2">
+        <p class="very-dark-blue">
+          At EarthForm, we harness the technology of mycelium to develop
+          compostable, non-toxic, and high-performance biomaterials for
+          lifestyle, interior design, merchandising and packaging products. We
+          envision a world surrounded by materials conducive to life on Earth.
+        </p>
       </div>
-      <div class="grid grid-cols-none sm:grid-cols-12 gap-4">
-        <div
-          class="sm:col-span-7 rounded-xl impact-left-bg text-white p-6 grid gap-10"
-        >
-          <h3 class="font-bold">
-            Broad impact across multiple industries and applications.
-          </h3>
-          <div>
-            <p
-              v-for="(impact, index) in impactList"
-              :key="index"
-              class="font-bold"
-            >
-              {{ impact }}
-            </p>
-          </div>
-        </div>
-        <div
-          class="sm:col-span-5 rounded-xl impact-right-bg p-6 min-h-[200px]"
+      <div class="grid gap-6">
+        <v-img
+          src="/images/rawmat-coconut.png"
+          cover
+          class="rounded-xl"
+          max-height="300px"
         />
+        <div class="grid grid-cols-none sm:grid-cols-2 gap-4">
+          <v-img
+            src="/images/rawmat-coconut.png"
+            cover
+            class="rounded-xl"
+            max-height="300px"
+          />
+          <v-img
+            src="/images/rawmat-coconut.png"
+            cover
+            class="rounded-xl"
+            max-height="300px"
+          />
+        </div>
       </div>
       <div class="grid gap-8">
-        <h2>Manifesto</h2>
-        <div class="w-full h-full">
-          <img
-            src="~/assets/images/rainforest-landscape.webp"
-            alt="Forest landscape in southern Thailand"
-            width="100%"
-            height="100%"
-            class="rounded-2xl max-h-[500px]"
-            loading="lazy"
+        <h2 class="cobalt-blue">Responsibly Sourced Byproducts</h2>
+        <h3 class="font-normal very-dark-blue" cover>
+          Our raw materials are sourced locally in Thailand.
+        </h3>
+        <nuxt-link
+          to="/products#responsibly-sourced-byproducts"
+          class="cobalt-blue"
+          >Learn more</nuxt-link
+        >
+        <div class="grid grid-cols-none sm:grid-cols-3 gap-4">
+          <v-img
+            src="/images/rawmat-coconut.png"
+            cover
+            class="rounded-xl"
+            max-height="300px"
           />
-        </div>
-        <div class="grid grid-cols-none sm:grid-cols-2 gap-4">
-          <p class="font-sans text-base sm:text-xl font-medium">
-            The health and well-being of the planet and all its inhabitants are
-            interdependent. Nurturing and restoring ecosystems and communities
-            are essential foundations to creating a regenerative future.
-          </p>
-          <p>
-            We recognize that the impacts of climate change are not felt equally
-            across all communities and acknowledge the importance of social
-            responsibility in our efforts to achieve our vision. We aim to build
-            systems that sustain themselves and create value, health, and
-            well-being for all stakeholders. Our work is an ongoing process, and
-            we’re committed to transparency and accountability as we strive to
-            create a better world.
-          </p>
+          <v-img
+            src="/images/rawmat-coconut.png"
+            cover
+            class="rounded-xl"
+            max-height="300px"
+          />
+          <v-img
+            src="/images/rawmat-coconut.png"
+            cover
+            class="rounded-xl"
+            max-height="300px"
+          />
         </div>
       </div>
     </div>

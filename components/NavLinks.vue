@@ -9,5 +9,16 @@
     :key="index"
     >{{ nav }}</nuxt-link
   >
-  <v-btn rounded flat variant="outlined" to="/work-with-us">Work with us</v-btn>
+  <v-btn rounded flat variant="outlined" color="" to="/work-with-us"
+    >Work with us</v-btn
+  >
 </template>
+
+<!-- <style scoped>
+  a:hover {
+    text-decoration: underline;
+  }
+  .router-link-active {
+    text-decoration: underline;
+  }
+</style> -->
