@@ -3,7 +3,7 @@
     tagline: "Design-Focused, Impact-Driven",
     subtile:
       "Inspired by nature, we’re designing and producing the next generation of materials for a healthy planet.",
-    img: "/images/aerial-terrain-gradient.png",
+    img: "/images/aerial-terrain-gradient.webp",
     email_cta: true,
   };
 </script>
@@ -28,7 +28,7 @@
           </p>
         </div>
         <div class="w-full rounded-lg">
-          <v-img contain :src="'/images/solar-punk.png'" class="rounded-2xl" />
+          <v-img contain :src="'/images/solar-punk.webp'" class="rounded-2xl" />
         </div>
       </div>
       <div>
@@ -46,20 +46,20 @@
       </div>
       <div class="grid gap-6">
         <v-img
-          src="/images/mycel-1.png"
+          src="/images/mycel-1.webp"
           cover
           class="rounded-xl"
           max-height="300px"
         />
         <div class="grid grid-cols-none sm:grid-cols-2 gap-4">
           <v-img
-            src="/images/mycel-2.png"
+            src="/images/mycel-2.webp"
             cover
             class="rounded-xl"
             max-height="300px"
           />
           <v-img
-            src="/images/mycel-3.png"
+            src="/images/mycel-3.webp"
             cover
             class="rounded-xl"
             max-height="300px"
@@ -91,19 +91,19 @@
         </nuxt-link>
         <div class="grid grid-cols-none sm:grid-cols-3 gap-4">
           <v-img
-            src="/images/rawmat-rice.png"
+            src="/images/rawmat-rice.webp"
             cover
             class="rounded-xl"
             max-height="300px"
           />
           <v-img
-            src="/images/rawmat-construction.png"
+            src="/images/rawmat-construction.webp"
             cover
             class="rounded-xl"
             max-height="300px"
           />
           <v-img
-            src="/images/rawmat-stem.png"
+            src="/images/rawmat-stem.webp"
             cover
             class="rounded-xl"
             max-height="300px"

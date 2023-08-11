@@ -12,7 +12,7 @@
     tagline: "Elevate Your Business",
     subtile:
       "EarthForm meets you where you are to build a better world together. Contact us for a discovery call today.",
-    img: "/images/lab-gradient.png",
+    img: "/images/lab-gradient.webp",
   };
 </script>
 
@@ -32,7 +32,7 @@
         </div>
         <v-img
           cover
-          :src="'/images/showroom.png'"
+          :src="'/images/showroom.webp'"
           class="rounded-2xl"
           max-height="500px"
         />

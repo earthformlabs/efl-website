@@ -13,7 +13,7 @@
     tagline: "Growing Materials for Resilient & Regenerative Futures",
     subtile:
       "EarthForm is stewarding the process of building adaptive societies with biomaterials.",
-    img: "/images/mushroom-gradient.png",
+    img: "/images/mushroom-gradient.webp",
   };
 </script>
 
@@ -40,10 +40,10 @@
               solid structure, mycelium composite is created.
             </p>
           </div>
-          <v-img :src="'/images/mushroom.png'" class="rounded-2xl" />
+          <v-img :src="'/images/mushroom.webp'" class="rounded-2xl" />
         </div>
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
-          <v-img :src="'/images/mycelium-roots.png'" class="rounded-2xl" />
+          <v-img :src="'/images/mycelium-roots.webp'" class="rounded-2xl" />
           <div>
             <p class="very-dark-blue mb-4">
               Not all composites are created equal, it’s a class of materials
@@ -71,9 +71,9 @@
       </div>
       <div class="grid gap-6">
         <div class="grid grid-cols-none sm:grid-cols-3 gap-4">
-          <v-img src="/images/rawmat-rice.png" cover class="rounded-xl" />
-          <v-img src="/images/rawmat-egg.png" cover class="rounded-xl" />
-          <v-img src="/images/rawmat-coffee.png" cover class="rounded-xl" />
+          <v-img src="/images/rawmat-rice.webp" cover class="rounded-xl" />
+          <v-img src="/images/rawmat-egg.webp" cover class="rounded-xl" />
+          <v-img src="/images/rawmat-coffee.webp" cover class="rounded-xl" />
         </div>
         <p class="font-bold cobalt-blue">
           Construction Waste • Agricultural Waste • Food Waste
@@ -81,7 +81,7 @@
       </div>
       <div class="py-4">
         <v-img
-          src="/images/process-diagram.png"
+          src="/images/process-diagram.webp"
           cover
           class="rounded-xl mx-auto w-full h-full"
           max-width="80%"
@@ -100,25 +100,25 @@
         </div>
         <div class="grid grid-cols-none sm:grid-cols-4 gap-4">
           <v-img
-            src="/images/rawmat-rice.png"
+            src="/images/rawmat-rice.webp"
             cover
             class="rounded-xl"
             max-height="300px"
           />
           <v-img
-            src="/images/rawmat-wood.png"
+            src="/images/rawmat-wood.webp"
             cover
             class="rounded-xl"
             max-height="300px"
           />
           <v-img
-            src="/images/rawmat-stem.png"
+            src="/images/rawmat-stem.webp"
             cover
             class="rounded-xl"
             max-height="300px"
           />
           <v-img
-            src="/images/rawmat-cotton.png"
+            src="/images/rawmat-cotton.webp"
             cover
             class="rounded-xl"
             max-height="300px"

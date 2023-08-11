@@ -15,7 +15,7 @@
       "EarthForm believes that responsible design should be the standard.",
     description:
       "We’re on a mission to change the way we design and produce materials for a better world. ",
-    img: "/images/mushzoom-gradient.png",
+    img: "/images/mushzoom-gradient.webp",
   };
 </script>
 

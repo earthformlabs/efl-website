@@ -13,7 +13,7 @@
     tagline: "Projects",
     subtile:
       "We’re collaborating with partners to improve accessibility and visibility for biodesigners, and communicating the potential of mycelium through art & storytelling.",
-    img: "/images/petri-gradient.png",
+    img: "/images/petri-gradient.webp",
   };
 </script>
 
