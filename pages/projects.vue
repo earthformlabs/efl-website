@@ -47,11 +47,16 @@
             max-width="200px"
           />
           <p class="text-ef-very-dark-blue mb-4 col-span-4">
-            <strong>Regen Districts</strong> is a nonprofit building a network
-            of local creatives and businesses to showcase the possibilities of
-            biodesign through art. The project aims to educate the public,
-            improve accessibility to biomass, and catalog biomaterials for open
-            innovation.
+            <nuxt-link
+              class="font-bold underline"
+              href="https://regendistricts.com"
+              target="_blank"
+              >Regen Districts</nuxt-link
+            >
+            is a nonprofit building a network of local creatives and businesses
+            to showcase the possibilities of biodesign through art. The project
+            aims to educate the public, improve accessibility to biomass, and
+            catalog biomaterials for open innovation.
           </p>
         </div>
         <div class="grid grid-cols-none sm:grid-cols-6 gap-8">
