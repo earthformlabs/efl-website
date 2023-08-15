@@ -26,7 +26,7 @@
           <div class="grid col-span-3">
             <div>
               <p class="text-2xl mb-4 max-w-[100%]">{{ subtile }}</p>
-              <p class="pr-0 sm:pr-20">
+              <p class="pr-0 sm:pr-20 sm:">
                 {{ description }}
               </p>
               <!-- <v-btn v-if="email_cta" rounded flat>Stay updated</v-btn> -->

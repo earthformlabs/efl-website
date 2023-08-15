@@ -16,12 +16,12 @@
     >
       <div class="grid gap-8">
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <h2 class="cobalt-blue">
+          <h2 class="text-ef-cobalt-blue">
             “The materials we interact with on a daily basis matter.”
           </h2>
         </div>
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <p class="very-dark-blue">
+          <p class="text-ef-very-dark-blue">
             How we design and the materials we choose for our everyday products
             determine the present and future outcomes of human and non-human
             life and overall planetary health.
@@ -33,10 +33,10 @@
       </div>
       <div>
         <div class="grid grid-cols-none sm:grid-cols-2 mb-6">
-          <h2 class="cobalt-blue">Mycelium to Biomaterials</h2>
+          <h2 class="text-ef-cobalt-blue">Mycelium to Biomaterials</h2>
         </div>
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <p class="very-dark-blue">
+          <p class="text-ef-very-dark-blue">
             At EarthForm, we harness the technology of mycelium to develop
             compostable, non-toxic, and high-performance biomaterials for
             lifestyle, interior design, merchandising and packaging products. We
@@ -67,13 +67,13 @@
         </div>
       </div>
       <div class="grid gap-8">
-        <h2 class="cobalt-blue">Responsibly Sourced Byproducts</h2>
-        <p class="font-normal very-dark-blue" cover>
+        <h2 class="text-ef-cobalt-blue">Responsibly Sourced Byproducts</h2>
+        <p class="font-normal text-ef-very-dark-blue" cover>
           Our raw materials are sourced locally in Thailand.
         </p>
         <nuxt-link
           to="/products#responsibly-sourced-byproducts"
-          class="cobalt-blue flex gap-2"
+          class="text-ef-cobalt-blue flex gap-2"
         >
           <span>Learn more</span>
           <svg

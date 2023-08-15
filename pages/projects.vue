@@ -31,7 +31,7 @@
             class="rounded-2xl mx-auto w-full col-span-5 sm:col-span-2"
             max-width="180px"
           />
-          <p class="very-dark-blue mb-4 col-span-4">
+          <p class="text-ef-very-dark-blue mb-4 col-span-4">
             <strong>Regenerative Futures</strong> is a workshop and speaker
             panel series on building regenerative futures in our society. From
             hands-on biomaterials workshops to talks on impact investing,
@@ -46,7 +46,7 @@
             class="rounded-2xl mx-auto w-full col-span-5 sm:col-span-2"
             max-width="200px"
           />
-          <p class="very-dark-blue mb-4 col-span-4">
+          <p class="text-ef-very-dark-blue mb-4 col-span-4">
             <strong>Regen Districts</strong> is a nonprofit building a network
             of local creatives and businesses to showcase the possibilities of
             biodesign through art. The project aims to educate the public,
@@ -61,7 +61,7 @@
             class="rounded-2xl mx-auto w-full col-span-5 sm:col-span-2"
             max-width="160px"
           />
-          <p class="very-dark-blue mb-4 col-span-4">
+          <p class="text-ef-very-dark-blue mb-4 col-span-4">
             <strong>Ctrl+R</strong> is an interdisciplinary artist collective on
             a mission to foster dialogue around circular and regenerative
             design. The collective explores how design and making can

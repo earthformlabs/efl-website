@@ -24,7 +24,7 @@
     >
       <div class="grid gap-8">
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
-          <p class="very-dark-blue mb-4">
+          <p class="text-ef-very-dark-blue mb-4">
             We engage with a variety of clients ranging from consumer brands,
             manufacturers, and museums to integrate sustainable, circular design
             principles into products, experiences and events.
@@ -37,7 +37,7 @@
           max-height="500px"
         />
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
-          <p class="very-dark-blue mb-4">
+          <p class="text-ef-very-dark-blue mb-4">
             EarthForm helps you stand out in the market, foster customer
             loyalty, and contribute to a greener future - all while achieving
             your business objectives. 
@@ -69,7 +69,7 @@
                   </clipPath>
                 </defs>
               </svg>
-              <p class="font-bold cobalt-blue">Bespoke</p>
+              <p class="font-bold text-ef-cobalt-blue">Bespoke</p>
             </div>
           </v-card>
           <v-card class="card-gradient">
@@ -89,7 +89,7 @@
                 />
               </svg>
 
-              <p class="font-bold cobalt-blue">Partnerships</p>
+              <p class="font-bold text-ef-cobalt-blue">Partnerships</p>
             </div>
           </v-card>
           <v-card class="card-gradient">
@@ -112,7 +112,7 @@
                 />
               </svg>
 
-              <p class="font-bold cobalt-blue">White-Label Designs</p>
+              <p class="font-bold text-ef-cobalt-blue">White-Label Designs</p>
             </div>
           </v-card>
         </div>
@@ -120,8 +120,10 @@
       <div class="grid gap-8">
         <div class="grid grid-cols-none sm:grid-cols-2">
           <div>
-            <h3 class="cobalt-blue mb-4">Responsibly Sourced Byproducts</h3>
-            <p class="cobalt-blue">
+            <h3 class="text-ef-cobalt-blue mb-4">
+              Responsibly Sourced Byproducts
+            </h3>
+            <p class="text-ef-cobalt-blue">
               We engage in bespoke partnerships with brands, meticulously
               designing and producing mycelium-based products tailored precisely
               to their unique requirements.
@@ -130,8 +132,8 @@
         </div>
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
           <div>
-            <h3 class="cobalt-blue mb-4">Partnerships</h3>
-            <p class="cobalt-blue">
+            <h3 class="text-ef-cobalt-blue mb-4">Partnerships</h3>
+            <p class="text-ef-cobalt-blue">
               Through collaborative alliances, we partner with clients to
               co-create and manufacture co-branded mycelium products, aligning
               design expertise and brand identities.
@@ -140,8 +142,8 @@
         </div>
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
           <div>
-            <h3 class="cobalt-blue mb-4">White-Label Designs</h3>
-            <p class="cobalt-blue">
+            <h3 class="text-ef-cobalt-blue mb-4">White-Label Designs</h3>
+            <p class="text-ef-cobalt-blue">
               Our studio offers design solutions, enabling clients to
               manufacture their own branded products while benefiting from our
               expert biodesigners.

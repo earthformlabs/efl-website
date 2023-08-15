@@ -92,7 +92,7 @@
         />
       </div>
       <div class="grid gap-8">
-        <h2 class="cobalt-blue">Team</h2>
+        <h2 class="text-ef-cobalt-blue">Team</h2>
         <div>
           <h3 class="mb-4">Founders</h3>
           <div class="grid grid-cols-2 sm:grid-cols-5 gap-6">
@@ -160,7 +160,7 @@
         </div>
       </div>
       <!-- <div class="grid gap-8">
-        <h2 class="cobalt-blue">Advisors</h2>
+        <h2 class="text-ef-cobalt-blue">Advisors</h2>
         <div>
           <div class="grid grid-cols-2 sm:grid-cols-5 gap-6">
             <div class="w-full h-full grid gap-4">

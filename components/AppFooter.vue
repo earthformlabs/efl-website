@@ -29,7 +29,7 @@
       <div class="sm:col-span-5 grid gap-8">
         <nuxt-link to="/">
           <h3 class="text-2xl pb-3">EarthForm</h3>
-          <p class="pb-2 font-thin text-sm">
+          <p class="pb-2 text-sm">
             EarthForm is a biotechnology startup on a mission to change the way
             we design and produce materials by transforming underutilized food
             waste into high-value biomaterials. With a core focus on leveraging

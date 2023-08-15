@@ -25,16 +25,16 @@
     >
       <div class="grid gap-8">
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <h2 class="cobalt-blue">What is Mycelium?</h2>
+          <h2 class="text-ef-cobalt-blue">What is Mycelium?</h2>
         </div>
 
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
           <div>
-            <p class="very-dark-blue mb-4">
+            <p class="text-ef-very-dark-blue mb-4">
               Mycelium are a network of thread-like structures called hyphae -
               they are the root structures of fungi.
             </p>
-            <p class="very-dark-blue">
+            <p class="text-ef-very-dark-blue">
               By allowing mycelium to grow and bind together organic waste
               substrate, such as agricultural byproducts or food waste, into a
               solid structure, mycelium composite is created.
@@ -45,12 +45,12 @@
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
           <v-img :src="'/images/mycelium-roots.webp'" class="rounded-2xl" />
           <div>
-            <p class="very-dark-blue mb-4">
+            <p class="text-ef-very-dark-blue mb-4">
               Not all composites are created equal, it’s a class of materials
               and the outputs are determined by the ingredients, microstructure
               and processing conditions.
             </p>
-            <p class="very-dark-blue">
+            <p class="text-ef-very-dark-blue">
               Our proprietary formulas are engineered to produce properties that
               result in high-performing for the functions of our products. It’s
               design, driven by nature and empowered by science. 
@@ -59,9 +59,9 @@
         </div>
       </div>
       <div>
-        <h2 class="cobalt-blue mb-6">Process: Bio-Circular-Green</h2>
+        <h2 class="text-ef-cobalt-blue mb-6">Process: Bio-Circular-Green</h2>
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <p class="very-dark-blue">
+          <p class="text-ef-very-dark-blue">
             At EarthForm, we harness the technology of mycelium to develop
             compostable, non-toxic, and high-performing biomaterials for
             lifestyle, interior design, merchandising and packaging products. We
@@ -75,7 +75,7 @@
           <v-img src="/images/rawmat-egg.webp" cover class="rounded-xl" />
           <v-img src="/images/rawmat-coffee.webp" cover class="rounded-xl" />
         </div>
-        <p class="font-bold cobalt-blue">
+        <p class="font-bold text-ef-cobalt-blue">
           Construction Waste • Agricultural Waste • Food Waste
         </p>
       </div>
@@ -88,9 +88,9 @@
         />
       </div>
       <div class="grid gap-8">
-        <h2 class="cobalt-blue">Responsibly Sourced Byproducts</h2>
+        <h2 class="text-ef-cobalt-blue">Responsibly Sourced Byproducts</h2>
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <p class="font-normal very-dark-blue" cover>
+          <p class="font-normal text-ef-very-dark-blue" cover>
             We collaborate with a network of local farmers and food waste
             suppliers near our laboratory in Nakorn Pathom, just outside of
             Bangkok, Thailand. EarthForm is committed to supply-chain
@@ -125,10 +125,12 @@
           />
         </div>
         <div>
-          <p class="font-bold cobalt-blue">Rice Husks</p>
-          <p class="font-bold cobalt-blue">Sawdust</p>
-          <p class="font-bold cobalt-blue">Water Hyacinth (Invasive Species)</p>
-          <p class="font-bold cobalt-blue">
+          <p class="font-bold text-ef-cobalt-blue">Rice Husks</p>
+          <p class="font-bold text-ef-cobalt-blue">Sawdust</p>
+          <p class="font-bold text-ef-cobalt-blue">
+            Water Hyacinth (Invasive Species)
+          </p>
+          <p class="font-bold text-ef-cobalt-blue">
             Cellulose-based (Paper Cup, Textiles Waste)
           </p>
         </div>

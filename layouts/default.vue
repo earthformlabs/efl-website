@@ -12,8 +12,8 @@
 
 <template>
   <v-layout>
+    <AppHeader />
     <v-main>
-      <AppHeader />
       <slot />
       <ContactBanner />
       <AppFooter />

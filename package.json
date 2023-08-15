@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "vite-plugin-vuetify": "^1.0.2",
-    "vuetify": "^3.1.13"
+    "vuetify": "^3.3.12"
   }
 }
