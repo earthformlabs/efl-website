@@ -23,7 +23,7 @@
       class="container mx-auto px-4 sm:px-20 py-10 sm:py-20 grid gap-8 sm:gap-16"
     >
       <div class="grid gap-8">
-        <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
+        <div class="grid grid-cols-none md:grid-cols-2 gap-8">
           <p class="text-ef-very-dark-blue mb-4">
             We engage with a variety of clients ranging from consumer brands,
             manufacturers, and museums to integrate sustainable, circular design
@@ -36,7 +36,7 @@
           class="rounded-2xl"
           max-height="500px"
         />
-        <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
+        <div class="grid grid-cols-none md:grid-cols-2 gap-8">
           <p class="text-ef-very-dark-blue mb-4">
             EarthForm helps you stand out in the market, foster customer
             loyalty, and contribute to a greener future - all while achieving
@@ -118,7 +118,7 @@
         </div>
       </div>
       <div class="grid gap-8">
-        <div class="grid grid-cols-none sm:grid-cols-2">
+        <div class="grid grid-cols-none md:grid-cols-2">
           <div>
             <h3 class="text-ef-cobalt-blue mb-4">
               Responsibly Sourced Byproducts
@@ -130,7 +130,7 @@
             </p>
           </div>
         </div>
-        <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
+        <div class="grid grid-cols-none md:grid-cols-2 gap-8">
           <div>
             <h3 class="text-ef-cobalt-blue mb-4">Partnerships</h3>
             <p class="text-ef-very-dark-blue">
@@ -140,7 +140,7 @@
             </p>
           </div>
         </div>
-        <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
+        <div class="grid grid-cols-none md:grid-cols-2 gap-8">
           <div>
             <h3 class="text-ef-cobalt-blue mb-4">White-Label Designs</h3>
             <p class="text-ef-very-dark-blue">
