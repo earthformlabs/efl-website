@@ -123,7 +123,7 @@
             <h3 class="text-ef-cobalt-blue mb-4">
               Responsibly Sourced Byproducts
             </h3>
-            <p class="text-ef-cobalt-blue">
+            <p class="text-ef-very-dark-blue">
               We engage in bespoke partnerships with brands, meticulously
               designing and producing mycelium-based products tailored precisely
               to their unique requirements.
@@ -133,7 +133,7 @@
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
           <div>
             <h3 class="text-ef-cobalt-blue mb-4">Partnerships</h3>
-            <p class="text-ef-cobalt-blue">
+            <p class="text-ef-very-dark-blue">
               Through collaborative alliances, we partner with clients to
               co-create and manufacture co-branded mycelium products, aligning
               design expertise and brand identities.
@@ -143,7 +143,7 @@
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
           <div>
             <h3 class="text-ef-cobalt-blue mb-4">White-Label Designs</h3>
-            <p class="text-ef-cobalt-blue">
+            <p class="text-ef-very-dark-blue">
               Our studio offers design solutions, enabling clients to
               manufacture their own branded products while benefiting from our
               expert biodesigners.

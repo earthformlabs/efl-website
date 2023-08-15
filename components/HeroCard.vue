@@ -25,7 +25,9 @@
           </div>
           <div class="grid col-span-full md:col-span-4 lg:col-span-3">
             <div>
-              <p class="text-lg sm:text-2xl mb-4 max-w-[100%]">{{ subtile }}</p>
+              <p class="text-lg font-normal sm:font-medium mb-4 max-w-[100%]">
+                {{ subtile }}
+              </p>
               <p class="pr-0 sm:pr-20 sm:">
                 {{ description }}
               </p>
