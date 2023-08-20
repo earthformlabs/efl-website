@@ -25,13 +25,12 @@
       class="container mx-auto px-4 sm:px-20 py-10 sm:py-20 grid gap-8 sm:gap-16"
     >
       <div class="grid gap-8">
-        <div class="grid grid-cols-none sm:grid-cols-2">
+        <div class="grid grid-cols-none lg:grid-cols-2">
           <h2 class="text-ef-cobalt-blue" id="what-is-mycelium">
             What is Mycelium?
           </h2>
         </div>
-
-        <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
+        <div class="grid grid-cols-none lg:grid-cols-2 gap-8">
           <div>
             <p class="text-ef-very-dark-blue mb-4">
               Mycelium are a network of thread-like structures called hyphae -
@@ -43,18 +42,6 @@
               solid structure, mycelium composite is created.
             </p>
           </div>
-          <v-img
-            :src="'/images/mushroom.webp'"
-            class="rounded-2xl"
-            alt="Mushrooms"
-          />
-        </div>
-        <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
-          <v-img
-            :src="'/images/mycelium-roots.webp'"
-            class="rounded-2xl"
-            alt="Mushrooms roots"
-          />
           <div>
             <p class="text-ef-very-dark-blue mb-4">
               Not all composites are created equal, it’s a class of materials
@@ -68,10 +55,28 @@
             </p>
           </div>
         </div>
+        <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
+          <v-img
+            cover
+            :src="'/images/mushroom.webp'"
+            class="rounded-2xl"
+            alt="Mushrooms"
+            width="100%"
+            max-height="300px"
+          />
+          <v-img
+            cover
+            :src="'/images/mycelium-roots.webp'"
+            class="rounded-2xl"
+            alt="Mushrooms roots"
+            width="100%"
+            max-height="300px"
+          />
+        </div>
       </div>
       <div>
         <h2 class="text-ef-cobalt-blue mb-6">Process: Bio-Circular-Green</h2>
-        <div class="grid grid-cols-none sm:grid-cols-2">
+        <div class="grid grid-cols-none lg:grid-cols-2">
           <p class="text-ef-very-dark-blue">
             At EarthForm, we harness the technology of mycelium to develop
             compostable, non-toxic, and high-performing biomaterials for
