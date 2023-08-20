@@ -81,10 +81,10 @@
           Our raw materials are sourced locally in Thailand.
         </p>
         <nuxt-link
-          to="/products#responsibly-sourced-byproducts"
+          to="/products#what-is-mycelium"
           class="text-ef-cobalt-blue flex gap-2"
         >
-          <span>Learn more</span>
+          <span>Learn more about our products</span>
           <svg
             width="24"
             height="24"

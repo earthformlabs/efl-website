@@ -20,11 +20,10 @@
     <div class="container m-auto flex items-center justify-between px-8 py-8">
       <nuxt-link to="/">
         <img
+          class="w-full h-full"
           src="~/assets/logos/earthform-logotype-v2.svg"
           alt="EarthForm"
           style="max-height: 40px"
-          width="100%"
-          height="100%"
         />
       </nuxt-link>
       <div class="items-center gap-4 text-ef-cobalt-blue hidden sm:flex">
@@ -35,6 +34,8 @@
           size="large"
           color="ef-very-dark-blue"
           @click.stop="toggleMenu()"
+          role="button"
+          aria-label="Menu"
         >
           <svg
             class="v-icon__svg"

@@ -26,7 +26,9 @@
     >
       <div class="grid gap-8">
         <div class="grid grid-cols-none sm:grid-cols-2">
-          <h2 class="text-ef-cobalt-blue">What is Mycelium?</h2>
+          <h2 class="text-ef-cobalt-blue" id="what-is-mycelium">
+            What is Mycelium?
+          </h2>
         </div>
 
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
@@ -167,3 +169,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+  h2 {
+    scroll-margin-top: 32px;
+  }
+</style>
