@@ -23,7 +23,8 @@
           src="~/assets/logos/earthform-logotype-v2.svg"
           alt="EarthForm"
           style="max-height: 40px"
-          ;
+          width="100%"
+          height="100%"
         />
       </nuxt-link>
       <div class="items-center gap-4 text-ef-cobalt-blue hidden sm:flex">

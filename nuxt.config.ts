@@ -2,6 +2,13 @@
 import vuetify from "vite-plugin-vuetify";
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "en",
+      },
+    },
+  },
   css: ["@/assets/styles/main.css"],
   build: {
     transpile: ["vuetify"],

@@ -4,6 +4,7 @@
     subtile?: string;
     description?: string;
     img?: string;
+    img_thumb?: string;
     email_cta?: boolean;
   }>();
 </script>
@@ -17,7 +18,8 @@
         cover
         class="px-6 lg:px-32 h-full sm:max-h-[400px] md:max-h-[500px] lg:max-h-[700px] rounded-2xl flex justify-center items-center gradient-bg text-white"
         :src="img"
-        :lazy-src="img"
+        :lazy-src="img_thumb"
+        alt="Hero card image"
       >
         <div class="grid sm:grid-cols-6">
           <div class="grid col-span-full md:col-span-5 gap-4">

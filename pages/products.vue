@@ -14,6 +14,7 @@
     subtile:
       "EarthForm is stewarding the process of building adaptive societies with biomaterials.",
     img: "/images/mushroom-gradient.webp",
+    img_thumb: "/images/thumb/mushroom-gradient.webp",
   };
 </script>
 
@@ -40,10 +41,18 @@
               solid structure, mycelium composite is created.
             </p>
           </div>
-          <v-img :src="'/images/mushroom.webp'" class="rounded-2xl" />
+          <v-img
+            :src="'/images/mushroom.webp'"
+            class="rounded-2xl"
+            alt="Mushrooms"
+          />
         </div>
         <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
-          <v-img :src="'/images/mycelium-roots.webp'" class="rounded-2xl" />
+          <v-img
+            :src="'/images/mycelium-roots.webp'"
+            class="rounded-2xl"
+            alt="Mushrooms roots"
+          />
           <div>
             <p class="text-ef-very-dark-blue mb-4">
               Not all composites are created equal, it’s a class of materials
@@ -71,9 +80,24 @@
       </div>
       <div class="grid gap-6">
         <div class="grid grid-cols-none sm:grid-cols-3 gap-4">
-          <v-img src="/images/rawmat-rice.webp" cover class="rounded-xl" />
-          <v-img src="/images/rawmat-egg.webp" cover class="rounded-xl" />
-          <v-img src="/images/rawmat-coffee.webp" cover class="rounded-xl" />
+          <v-img
+            src="/images/rawmat-rice.webp"
+            cover
+            class="rounded-xl"
+            alt="Raw material - rice"
+          />
+          <v-img
+            src="/images/rawmat-egg.webp"
+            cover
+            class="rounded-xl"
+            alt="Raw mateiral - egg shells"
+          />
+          <v-img
+            src="/images/rawmat-coffee.webp"
+            cover
+            class="rounded-xl"
+            alt="Raw mateiral - coffee grounds"
+          />
         </div>
         <p class="font-bold text-ef-cobalt-blue">
           Construction Waste • Agricultural Waste • Food Waste
@@ -85,6 +109,7 @@
           cover
           class="rounded-xl mx-auto w-full h-full"
           max-width="80%"
+          alt="Process diagram"
         />
       </div>
       <div class="grid gap-8">
@@ -104,24 +129,28 @@
             cover
             class="rounded-xl"
             max-height="300px"
+            alt="Raw material - rice"
           />
           <v-img
             src="/images/rawmat-wood.webp"
             cover
             class="rounded-xl"
             max-height="300px"
+            alt="Raw material - wood"
           />
           <v-img
             src="/images/rawmat-stem.webp"
             cover
             class="rounded-xl"
             max-height="300px"
+            alt="Raw material - agricultural waste"
           />
           <v-img
             src="/images/rawmat-cotton.webp"
             cover
             class="rounded-xl"
             max-height="300px"
+            alt="Raw material - cotton"
           />
         </div>
         <div>

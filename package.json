@@ -11,7 +11,8 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.5",
     "nuxt": "^3.3.3",
-    "nuxt-gtag": "^0.5.7"
+    "nuxt-gtag": "^0.5.7",
+    "sass": "^1.66.1"
   },
   "dependencies": {
     "vite-plugin-vuetify": "^1.0.2",

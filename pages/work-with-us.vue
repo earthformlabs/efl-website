@@ -13,6 +13,7 @@
     subtile:
       "EarthForm meets you where you are to build a better world together. Contact us for a discovery call today.",
     img: "/images/lab-gradient.webp",
+    img_thumb: "/images/thumb/lab-gradient.webp",
   };
 </script>
 
@@ -35,6 +36,7 @@
           :src="'/images/showroom.webp'"
           class="rounded-2xl"
           max-height="500px"
+          alt="Showroom"
         />
         <div class="grid grid-cols-none md:grid-cols-2 gap-8">
           <p class="text-ef-very-dark-blue mb-4">

@@ -14,6 +14,7 @@
     subtile:
       "We’re collaborating with partners to improve accessibility and visibility for biodesigners, and communicating the potential of mycelium through art & storytelling.",
     img: "/images/petri-gradient.webp",
+    img_thumb: "/images/thumb/petri-gradient.webp",
   };
 </script>
 
@@ -30,6 +31,7 @@
             :src="'/images/regen-futures.svg'"
             class="rounded-2xl mx-auto w-full col-span-5 sm:col-span-2"
             max-width="180px"
+            alt="Regenerative futures logo"
           />
           <p class="text-ef-very-dark-blue mb-4 col-span-4">
             <strong>Regenerative Futures</strong> is a workshop and speaker
@@ -45,6 +47,7 @@
             :src="'/images/regen-districts.svg'"
             class="rounded-2xl mx-auto w-full col-span-5 sm:col-span-2"
             max-width="200px"
+            alt="Regenerative districts logo"
           />
           <p class="text-ef-very-dark-blue mb-4 col-span-4">
             <nuxt-link
@@ -65,6 +68,7 @@
             :src="'/images/ctrl+r.svg'"
             class="rounded-2xl mx-auto w-full col-span-5 sm:col-span-2"
             max-width="160px"
+            alt="Ctrl+R logo"
           />
           <p class="text-ef-very-dark-blue mb-4 col-span-4">
             <strong>Ctrl+R</strong> is an interdisciplinary artist collective on

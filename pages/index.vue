@@ -4,6 +4,7 @@
     subtile:
       "Inspired by nature, we’re designing and producing the next generation of materials for a healthy planet.",
     img: "/images/aerial-terrain-gradient.webp",
+    img_thumb: "/images/thumb/aerial-terrain-gradient.webp",
     email_cta: true,
   };
 </script>
@@ -28,7 +29,12 @@
           </p>
         </div>
         <div class="w-full rounded-lg">
-          <v-img contain :src="'/images/solar-punk.webp'" class="rounded-2xl" />
+          <v-img
+            contain
+            :src="'/images/solar-punk.webp'"
+            class="rounded-2xl"
+            alt="Solar punk image"
+          />
         </div>
       </div>
       <div>
@@ -50,6 +56,7 @@
           cover
           class="rounded-xl"
           max-height="300px"
+          alt="Mycelium image"
         />
         <div class="grid grid-cols-none sm:grid-cols-2 gap-4">
           <v-img
@@ -57,12 +64,14 @@
             cover
             class="rounded-xl"
             max-height="300px"
+            alt="Mycelium image"
           />
           <v-img
             src="/images/mycel-3.webp"
             cover
             class="rounded-xl"
             max-height="300px"
+            alt="Mycelium image"
           />
         </div>
       </div>
@@ -95,18 +104,21 @@
             cover
             class="rounded-xl"
             max-height="300px"
+            alt="Raw material - rice"
           />
           <v-img
             src="/images/rawmat-construction.webp"
             cover
             class="rounded-xl"
             max-height="300px"
+            alt="Raw material - constructio waste"
           />
           <v-img
             src="/images/rawmat-stem.webp"
             cover
             class="rounded-xl"
             max-height="300px"
+            alt="Raw material - agricultural waste"
           />
         </div>
       </div>

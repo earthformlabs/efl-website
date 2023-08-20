@@ -16,6 +16,7 @@
     description:
       "We’re on a mission to change the way we design and produce materials for a better world. ",
     img: "/images/mushzoom-gradient.webp",
+    img_thumb: "/images/thumb/mushzoom-gradient.webp",
   };
 </script>
 

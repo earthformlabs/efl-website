@@ -3,10 +3,12 @@
 
   const socialIcons = [
     {
+      label: "EarthForm Instagram",
       icon: "/icons/instagram.svg",
       link: "instagram.com/earthformlabs",
     },
     {
+      label: "EarthForm LinkedIn",
       icon: "/icons/linkedin.svg",
       link: "linkedin.com/company/earthform-labs",
     },
@@ -46,10 +48,16 @@
             v-for="(icons, index) in socialIcons"
             :key="index"
             :to="`https://www.${icons.link}`"
+            :aria-label="icons.label"
             target="_blank"
             rel="noopener"
           >
-            <img :src="icons.icon" />
+            <img
+              :src="icons.icon"
+              width="100%"
+              height="100%"
+              alt="Social icons"
+            />
           </nuxt-link>
         </div>
       </div>
