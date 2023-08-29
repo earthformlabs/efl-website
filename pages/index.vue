@@ -5,7 +5,7 @@
       "Inspired by nature, we’re designing and producing the next generation of materials for a healthy planet.",
     img: "/images/aerial-terrain-gradient.webp",
     img_thumb: "/images/thumb/aerial-terrain-gradient.webp",
-    email_cta: true,
+    email_cta: false,
   };
 </script>
 
