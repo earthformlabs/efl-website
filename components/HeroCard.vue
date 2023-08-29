@@ -10,13 +10,13 @@
 </script>
 
 <template>
-  <div class="h-[700px]">
+  <div class="h-[650px]">
     <div
       class="container mx-auto pt-[120px] px-8 py-4 flex items-center relative z-10 h-full"
     >
       <v-img
         cover
-        class="px-6 lg:px-32 h-full sm:max-h-[400px] md:max-h-[500px] lg:max-h-[700px] rounded-2xl flex justify-center items-center gradient-bg text-white"
+        class="px-6 lg:px-32 h-full sm:max-h-[350px] md:max-h-[450px] lg:max-h-[650px] rounded-2xl flex justify-center items-center gradient-bg text-white"
         :src="img"
         :lazy-src="img_thumb"
         alt="Hero card image"
