@@ -33,7 +33,7 @@
               <p class="pr-0 sm:pr-20 sm:">
                 {{ description }}
               </p>
-              <!-- <v-btn v-if="email_cta" rounded flat>Stay updated</v-btn> -->
+              <v-btn v-if="email_cta" rounded flat>Stay updated</v-btn>
             </div>
           </div>
         </div>

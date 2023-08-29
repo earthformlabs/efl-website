@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const navList = ["Products", "Projects", "Work with us", "About"];
+  const navList = ["Product", "Projects", "Work with us", "About"];
 </script>
 
 <template>

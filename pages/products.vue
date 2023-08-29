@@ -50,8 +50,8 @@
             </p>
             <p class="text-ef-very-dark-blue">
               Our proprietary formulas are engineered to produce properties that
-              result in high-performing for the functions of our products. It’s
-              design, driven by nature and empowered by science. 
+              result in high performance for the functions of different
+              products. It’s design, driven by nature and empowered by science. 
             </p>
           </div>
         </div>
@@ -78,10 +78,11 @@
         <h2 class="text-ef-cobalt-blue mb-6">Process: Bio-Circular-Green</h2>
         <div class="grid grid-cols-none lg:grid-cols-2">
           <p class="text-ef-very-dark-blue">
-            At EarthForm, we harness the technology of mycelium to develop
-            compostable, non-toxic, and high-performing biomaterials for
-            lifestyle, interior design, merchandising and packaging products. We
-            envision a world surrounded by materials conducive to life on Earth.
+            EarthForm utilizes a holistic approach that integrates principles
+            from the fields of biotechnology, circular economy, and
+            environmental sustainability. Our comprehensive strategy creates
+            products, systems, and processes that align with nature, minimize
+            waste, and promote ecological balance.
           </p>
         </div>
       </div>
