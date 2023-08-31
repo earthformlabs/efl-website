@@ -1,7 +1,7 @@
 <script setup lang="ts">
   useSeoMeta({
-    title: "EarthForm - Products",
-    ogTitle: "EarthForm - Products",
+    title: "EarthForm - Technology",
+    ogTitle: "EarthForm - Technology",
     description:
       "Transforming underutilized by-products and invasive plant species into high-value biomaterials.",
     ogDescription:
