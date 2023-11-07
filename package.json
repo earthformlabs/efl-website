@@ -9,13 +9,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.6.5",
-    "nuxt": "^3.3.3",
+    "@nuxtjs/tailwindcss": "^6.9.4",
+    "nuxt": "^3.8.1",
     "nuxt-gtag": "^0.5.7",
-    "sass": "^1.66.1"
+    "sass": "^1.69.5"
   },
   "dependencies": {
     "vite-plugin-vuetify": "^1.0.2",
-    "vuetify": "^3.3.12"
+    "vuetify": "^3.3.23"
   }
 }
