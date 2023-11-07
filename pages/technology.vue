@@ -10,9 +10,10 @@
   });
 
   const herocardData = {
-    tagline: "Growing Materials for Resilient & Regenerative Futures",
+    tagline: "Materials Innovation for Regenerative Futures",
+    taglineGrid: 4,
     subtile:
-      "EarthForm is stewarding the process of building adaptive societies with biomaterials.",
+      "We believe in the untapped potential of mycelium to help shape the built environment.",
     img: "/images/mushroom-gradient.webp",
     img_thumb: "/images/thumb/mushroom-gradient.webp",
   };
@@ -32,26 +33,20 @@
         </div>
         <div class="grid grid-cols-none lg:grid-cols-2 gap-8">
           <div>
-            <p class="text-ef-very-dark-blue mb-4">
-              Mycelium are a network of thread-like structures called hyphae -
-              they are the root structures of fungi.
-            </p>
             <p class="text-ef-very-dark-blue">
-              By allowing mycelium to grow and bind together organic waste
-              substrate, such as agricultural byproducts or food waste, into a
-              solid structure, mycelium composite is created.
+              Mycelium is a network of thread-like structures called hyphae -
+              they are the root structures of fungi.
             </p>
           </div>
           <div>
             <p class="text-ef-very-dark-blue mb-4">
-              Not all composites are created equal, it’s a class of materials
-              and the outputs are determined by the ingredients, microstructure
-              and processing conditions.
+              EarthForm engineers a class of mycelium-based composites with
+              unique formulas and processing conditions to create
+              high-performance biomaterials for interior design, merchandising,
+              construction, and art.
             </p>
             <p class="text-ef-very-dark-blue">
-              Our proprietary formulas are engineered to produce properties that
-              result in high performance for the functions of different
-              products. It’s design, driven by nature and empowered by science. 
+              It’s design, driven by nature and empowered by science.
             </p>
           </div>
         </div>
@@ -75,14 +70,14 @@
         </div>
       </div>
       <div>
-        <h2 class="text-ef-cobalt-blue mb-6">Process: Bio-Circular-Green</h2>
+        <h2 class="text-ef-cobalt-blue mb-6">
+          Facilitating Thailand’s Bio-Circular-Green (BCG) strategy for climate
+          action.
+        </h2>
         <div class="grid grid-cols-none lg:grid-cols-2">
           <p class="text-ef-very-dark-blue">
-            EarthForm utilizes a holistic approach that integrates principles
-            from the fields of biotechnology, circular economy, and
-            environmental sustainability. Our comprehensive strategy creates
-            products, systems, and processes that align with nature, minimize
-            waste, and promote ecological balance.
+            Impact at EarthForm is holistic, not just in product but in process
+            and infrastructure as well.
           </p>
         </div>
       </div>
@@ -121,14 +116,15 @@
         />
       </div>
       <div class="grid gap-8">
-        <h2 class="text-ef-cobalt-blue">Responsibly Sourced Byproducts</h2>
+        <h2 class="text-ef-cobalt-blue">
+          Community-based economic development helps us scale.
+        </h2>
         <div class="grid grid-cols-none sm:grid-cols-2">
           <p class="font-normal text-ef-very-dark-blue" cover>
-            We collaborate with a network of local farmers and food waste
-            suppliers near our laboratory in Nakorn Pathom, just outside of
-            Bangkok, Thailand. EarthForm is committed to supply-chain
-            transparency and fair trade practices to ensure quality and
-            responsible sourcing. 
+            We’re cultivating a network of local farmers and waste suppliers to
+            create resiliency in our supply chain. In addition to transparency,
+            EarthForm is committed to streamlining raw material access for
+            future innovators.
           </p>
         </div>
         <div class="grid grid-cols-none sm:grid-cols-4 gap-4">

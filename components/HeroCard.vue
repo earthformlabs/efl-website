@@ -1,12 +1,17 @@
 <script setup lang="ts">
-  defineProps<{
+  interface HeroProps {
     tagline?: string;
+    taglineGrid?: number;
     subtile?: string;
     description?: string;
     img?: string;
     img_thumb?: string;
     email_cta?: boolean;
-  }>();
+  }
+
+  withDefaults(defineProps<HeroProps>(), {
+    taglineGrid: 5,
+  });
 </script>
 
 <template>
@@ -22,7 +27,7 @@
         alt="Hero card image"
       >
         <div class="grid sm:grid-cols-6">
-          <div class="grid col-span-full md:col-span-5 gap-4">
+          <div :class="`grid col-span-full md:col-span-${taglineGrid} gap-4`">
             <h1 class="mb-4 text-2xl sm:text-3xl md:text-4xl">{{ tagline }}</h1>
           </div>
           <div class="grid col-span-full md:col-span-4 lg:col-span-3">

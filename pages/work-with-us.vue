@@ -9,9 +9,9 @@
     ogImage: "https://earthformlabs.com/ef-logo-square.png",
   });
   const herocardData = {
-    tagline: "Elevate Your Business",
+    tagline: "Work With Us",
     subtile:
-      "EarthForm meets you where you are to build a better world together. Contact us for a discovery call today.",
+      "EarthForm helps you stand out in the market, foster customer loyalty, and contribute to a greener future - all while achieving your business objectives.",
     img: "/images/lab-gradient.webp",
     img_thumb: "/images/thumb/lab-gradient.webp",
   };
@@ -38,13 +38,6 @@
           max-height="500px"
           alt="Showroom"
         />
-        <div class="grid grid-cols-none md:grid-cols-2 gap-8">
-          <p class="text-ef-very-dark-blue mb-4">
-            EarthForm helps you stand out in the market, foster customer
-            loyalty, and contribute to a greener future - all while achieving
-            your business objectives. 
-          </p>
-        </div>
       </div>
       <div class="grid gap-6">
         <div class="grid grid-cols-none sm:grid-cols-3 gap-4">
@@ -90,7 +83,6 @@
                   fill="#0E3EA4"
                 />
               </svg>
-
               <p class="font-bold text-ef-cobalt-blue">Partnerships</p>
             </div>
           </v-card>
@@ -113,7 +105,6 @@
                   stroke-linejoin="round"
                 />
               </svg>
-
               <p class="font-bold text-ef-cobalt-blue">White-Label Designs</p>
             </div>
           </v-card>
@@ -124,9 +115,8 @@
           <div>
             <h3 class="text-ef-cobalt-blue mb-4">Bespoke Collaborations</h3>
             <p class="text-ef-very-dark-blue">
-              We engage in bespoke partnerships with brands, meticulously
-              designing and producing mycelium-based products tailored precisely
-              to their unique requirements.
+              Design and produce mycelium-based products tailored precisely to
+              your unique requirements.
             </p>
           </div>
         </div>
@@ -134,9 +124,8 @@
           <div>
             <h3 class="text-ef-cobalt-blue mb-4">Partnerships</h3>
             <p class="text-ef-very-dark-blue">
-              Through alliances, we partner with clients to create and
-              manufacture co-branded mycelium products, aligning design
-              expertise and brand identities.
+              Partner with us to co-create and manufacture co-branded mycelium
+              products, aligning design expertise and brand identities.
             </p>
           </div>
         </div>
@@ -144,9 +133,9 @@
           <div>
             <h3 class="text-ef-cobalt-blue mb-4">White-Label Designs</h3>
             <p class="text-ef-very-dark-blue">
-              Our studio offers design solutions, enabling clients to
-              manufacture their own branded products while benefiting from our
-              expert biodesigners.
+              Our studio offers design solutions, enabling your business to
+              manufacture mycelium products while benefiting from our expert
+              biodesigners.
             </p>
           </div>
         </div>
