@@ -2,10 +2,10 @@
   const herocardData = {
     tagline: "Design-Focused, Impact-Driven",
     subtile:
-      "Inspired by nature, we’re designing and producing the next generation of materials for a healthy planet.",
+      "Inspired by nature, we’re designing and producing next generation materials for a healthy planet.",
     img: "/images/aerial-terrain-gradient.webp",
     img_thumb: "/images/thumb/aerial-terrain-gradient.webp",
-    email_cta: false,
+    email_cta: true,
   };
 </script>
 
@@ -18,14 +18,15 @@
       <div class="grid gap-8">
         <div class="grid grid-cols-none sm:grid-cols-2">
           <h2 class="text-ef-cobalt-blue">
-            “The materials we interact with on a daily basis matter.”
+            Our built environment should be healthy and resilient.
           </h2>
         </div>
         <div class="grid grid-cols-none sm:grid-cols-2">
           <p class="text-ef-very-dark-blue">
-            How we design and the materials we choose for our everyday products
-            determine the present and future outcomes of human and non-human
-            life and overall planetary health.
+            The materials we interact with on a daily basis are directly tied to
+            the well-being of human and planetary health. EarthForm produces a
+            new class of high-quality biomaterials rooted in circular economy
+            principles.
           </p>
         </div>
         <div class="w-full rounded-lg">
@@ -39,14 +40,14 @@
       </div>
       <div>
         <div class="grid grid-cols-none sm:grid-cols-2 mb-6">
-          <h2 class="text-ef-cobalt-blue">Mycelium to Biomaterials</h2>
+          <h2 class="text-ef-cobalt-blue">The future is bio-based.</h2>
         </div>
         <div class="grid grid-cols-none sm:grid-cols-2">
           <p class="text-ef-very-dark-blue">
-            At EarthForm, we harness the technology of mycelium to develop
-            compostable, non-toxic, and high-performance biomaterials for
-            lifestyle, interior design, merchandising and packaging products. We
-            envision a world surrounded by materials conducive to life on Earth.
+            We harness the technology of mycelium to develop biomaterials for
+            the built environment. From construction and interior design to
+            merchandising products, we’re stewarding a world surrounded by
+            materials conducive to life on Earth.
           </p>
         </div>
       </div>
@@ -76,12 +77,13 @@
         </div>
       </div>
       <div class="grid gap-8">
-        <h2 class="text-ef-cobalt-blue">Responsibly Sourced Byproducts</h2>
+        <h2 class="text-ef-cobalt-blue">Transforming waste to value.</h2>
         <p class="font-normal text-ef-very-dark-blue" cover>
-          Our raw materials are sourced locally in Thailand.
+          We’re building infrastructure for a circular economy with global scale
+          in mind.
         </p>
-        <nuxt-link
-          to="/products#what-is-mycelium"
+        <!-- <nuxt-link
+          to="/technology#what-is-mycelium"
           class="text-ef-cobalt-blue flex gap-2"
         >
           <span>Learn more about our products</span>
@@ -97,7 +99,7 @@
               fill="currentColor"
             />
           </svg>
-        </nuxt-link>
+        </nuxt-link> -->
         <div class="grid grid-cols-none sm:grid-cols-3 gap-4">
           <v-img
             src="/images/rawmat-rice.webp"

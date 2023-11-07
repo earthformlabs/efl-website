@@ -34,19 +34,11 @@
             transparency and the extractive and toxic processes in conventional
             production.
           </p>
-          <p class="mb-4">
-            At EarthForm, we take inspiration from the systems in our natural
-            world to serve as an endless source of wisdom in creating a more
-            livable planet and abundant society for all. By mimicking and
-            collaborating with nature’s creative, efficient and adaptable
-            processes, we’re cultivating regenerative futures, where design,
-            function, and sustainability converge.
-          </p>
-          <p class="mb-4">
-            Our process applies science, design and engineering to transform
-            waste, such as coffee grinds, fruit peels, and agricultural
-            by-products, to build circular economy systems, create value, reduce
-            waste, pollution and tackle the climate crisis.
+          <p>
+            Our approach applies deep tech to design out waste, promote
+            circularity and take climate action. We take inspiration from the
+            systems in our natural world to serve as a source of wisdom in
+            creating a more livable planet and abundant societies.
           </p>
         </div>
       </div>
@@ -92,7 +84,7 @@
           class="rounded-xl"
         />
       </div>
-      <div class="grid gap-8">
+      <!-- <div class="grid gap-8">
         <h2 class="text-ef-cobalt-blue">Team</h2>
         <div>
           <h3 class="mb-4">Founders</h3>
@@ -159,7 +151,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- <div class="grid gap-8">
         <h2 class="text-ef-cobalt-blue">Advisors</h2>
         <div>

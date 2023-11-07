@@ -33,12 +33,10 @@
           <h3 class="text-2xl pb-3">EarthForm</h3>
           <p class="pb-2 text-sm">
             EarthForm is a biotechnology startup on a mission to change the way
-            we design and produce materials by transforming underutilized food
-            waste into high-value biomaterials. With a core focus on leveraging
-            the technology of mycelium, EarthForm specializes in developing
-            circular and non-toxic home, interior design and merchandising
-            products for consumer brands, exhibitions and events.
+            we design and produce materials by transforming underutilized waste
+            into high-value biomaterials.
           </p>
+          <p class="pb-2">Bangkok, Thailand</p>
           <p class="font-thin text-xs">
             © Copyright EarthForm {{ getFullYear() }}
           </p>

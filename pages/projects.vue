@@ -12,7 +12,7 @@
   const herocardData = {
     tagline: "Projects",
     subtile:
-      "We’re collaborating with partners to improve accessibility and visibility for biodesigners, and communicating the potential of mycelium through art & storytelling.",
+      "We’re collaborating with partners to improve accessibility and visibility for biodesigners by communicating the potential of mycelium through art & storytelling.",
     img: "/images/petri-gradient.webp",
     img_thumb: "/images/thumb/petri-gradient.webp",
   };
