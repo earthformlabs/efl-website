@@ -11,6 +11,7 @@
 
   withDefaults(defineProps<HeroProps>(), {
     taglineGrid: 5,
+    email_cta: false,
   });
 </script>
 
