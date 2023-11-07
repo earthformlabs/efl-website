@@ -5,7 +5,7 @@
     >
       <h3 class="text-2xl">Get in touch</h3>
       <nuxt-link to="mailto:hello@earthformlabs.com">
-        <p class="font-thin">hello@earthformlabs.com</p>
+        <p>hello@earthformlabs.com</p>
       </nuxt-link>
     </div>
   </div>
