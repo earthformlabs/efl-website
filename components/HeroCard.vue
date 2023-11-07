@@ -41,7 +41,13 @@
               </p>
               <v-dialog width="540">
                 <template v-slot:activator="{ props }">
-                  <v-btn flat rounded v-bind="props" text="Stay updated" />
+                  <v-btn
+                    v-if="email_cta"
+                    flat
+                    rounded
+                    v-bind="props"
+                    text="Stay updated"
+                  />
                 </template>
 
                 <template v-slot:default="{ isActive }">
