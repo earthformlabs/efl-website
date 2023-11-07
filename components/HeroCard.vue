@@ -40,26 +40,26 @@
               </p>
               <v-dialog width="540">
                 <template v-slot:activator="{ props }">
-                  <v-btn flat rounded v-bind="props" text="Stay updated">
-                  </v-btn>
+                  <v-btn flat rounded v-bind="props" text="Stay updated" />
                 </template>
 
                 <template v-slot:default="{ isActive }">
-                  <iframe
-                    width="540"
-                    height="587"
-                    src="https://edc3d99f.sibforms.com/serve/MUIFAKZpC4DavyyPwws_U9M4VqLbDTGEQtHP5BIa6e2fuzRl97eM6LtPFs7zMDDE5NK3eKaHIlUdTuNtjelvCM3FVkNcjrg_XYOAEX0n_nytHXVhfCGhc00Trmd2qhQCBaoAdi6T89t_uOtH6PvuoiMFXI7OxWBh2u_D6ZtbkV0e5DT6Iwv4YgnGrt9igAZcMdTiFG9vHLBuwdAW"
-                    frameborder="0"
-                    scrolling="auto"
-                    allowfullscreen
-                    style="
-                      display: block;
-                      /* margin-left: auto; */
-                      /* margin-right: auto; */
-                      max-width: 100%;
-                      margin: -32px -12px;
-                    "
-                  ></iframe>
+                  <v-card>
+                    <iframe
+                      width="540"
+                      height="487"
+                      src="https://edc3d99f.sibforms.com/serve/MUIFAIjekNJsnK8vp7aNeU0PDtXkZ1hisFIIguZREXz3G1bgVcO2zHpCJ0fA7W62-Ffej3aoZP8xsSLTC0LK9fTuYa0gTvxd6PIITIQ68Pi8_7QLYqjR16NxPcYdlEZt2GB8B0wncYbeempsRTD2Bo0hLrMCq1nvOQlmCmH-aV25ZKzS88vmAUQjvIDTvU-dbKpuKOwFhisFgqq_"
+                      frameborder="0"
+                      scrolling="auto"
+                      allowfullscreen
+                      style="
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 100%;
+                      "
+                    ></iframe>
+                  </v-card>
                 </template>
               </v-dialog>
             </div>
