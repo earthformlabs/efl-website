@@ -38,7 +38,30 @@
               <p class="pr-0 sm:pr-20 sm:">
                 {{ description }}
               </p>
-              <v-btn v-if="email_cta" rounded flat>Stay updated</v-btn>
+              <v-dialog width="540">
+                <template v-slot:activator="{ props }">
+                  <v-btn flat rounded v-bind="props" text="Stay updated">
+                  </v-btn>
+                </template>
+
+                <template v-slot:default="{ isActive }">
+                  <iframe
+                    width="540"
+                    height="587"
+                    src="https://edc3d99f.sibforms.com/serve/MUIFAKZpC4DavyyPwws_U9M4VqLbDTGEQtHP5BIa6e2fuzRl97eM6LtPFs7zMDDE5NK3eKaHIlUdTuNtjelvCM3FVkNcjrg_XYOAEX0n_nytHXVhfCGhc00Trmd2qhQCBaoAdi6T89t_uOtH6PvuoiMFXI7OxWBh2u_D6ZtbkV0e5DT6Iwv4YgnGrt9igAZcMdTiFG9vHLBuwdAW"
+                    frameborder="0"
+                    scrolling="auto"
+                    allowfullscreen
+                    style="
+                      display: block;
+                      /* margin-left: auto; */
+                      /* margin-right: auto; */
+                      max-width: 100%;
+                      margin: -32px -12px;
+                    "
+                  ></iframe>
+                </template>
+              </v-dialog>
             </div>
           </div>
         </div>
