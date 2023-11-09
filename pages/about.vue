@@ -84,11 +84,11 @@
           class="rounded-xl"
         />
       </div>
-      <!-- <div class="grid gap-8">
+      <div class="grid gap-8">
         <h2 class="text-ef-cobalt-blue">Team</h2>
         <div>
           <h3 class="mb-4">Founders</h3>
-          <div class="grid grid-cols-2 sm:grid-cols-5 gap-6">
+          <div class="grid grid-cols-2 sm:grid-cols-8 gap-6">
             <div class="w-full h-full grid gap-4">
               <img
                 src="~/assets/images/team/nat.png"
@@ -105,8 +105,8 @@
                 >
                   <p class="text-sm sm:text-xs font-bold">Nathakit Sae-Tan</p>
                 </nuxt-link>
-                <p class="text-sm sm:text-xs">CO-CEO | Bangkok</p>
-                <p class="text-sm sm:text-xs">Innovation Lead</p>
+                <!-- <p class="text-sm sm:text-xs">CO-CEO | Bangkok</p> -->
+                <!-- <p class="text-sm sm:text-xs">Innovation Lead</p> -->
               </div>
             </div>
             <div class="w-full h-full grid gap-4">
@@ -119,8 +119,8 @@
               />
               <div>
                 <p class="text-sm sm:text-xs font-bold">Nika Hedrick</p>
-                <p class="text-sm sm:text-xs">CO-CEO | San Francisco</p>
-                <p class="text-sm sm:text-xs">Business Development</p>
+                <!-- <p class="text-sm sm:text-xs">CO-CEO | San Francisco</p> -->
+                <!-- <p class="text-sm sm:text-xs">Business Development</p> -->
               </div>
             </div>
             <div class="w-full h-full grid gap-4">
@@ -133,7 +133,7 @@
               />
               <div>
                 <p class="text-sm sm:text-xs font-bold">Makhawee Sukawatano</p>
-                <p class="text-sm sm:text-xs pb-4">Chief Product Officer</p>
+                <!-- <p class="text-sm sm:text-xs pb-4">Chief Product Officer</p> -->
               </div>
             </div>
             <div class="w-full h-full grid gap-4">
@@ -146,12 +146,12 @@
               />
               <div>
                 <p class="text-sm sm:text-xs font-bold">Anya Muangkote</p>
-                <p class="text-sm sm:text-xs pb-4">Chief Design Officer</p>
+                <!-- <p class="text-sm sm:text-xs pb-4">Chief Design Officer</p> -->
               </div>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <!-- <div class="grid gap-8">
         <h2 class="text-ef-cobalt-blue">Advisors</h2>
         <div>
