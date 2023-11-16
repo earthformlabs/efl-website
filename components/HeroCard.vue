@@ -16,7 +16,7 @@
 </script>
 
 <template>
-  <div class="h-[650px]">
+  <div class="h-[500px] sm:h-[650px]">
     <div
       class="container mx-auto pt-[120px] px-8 py-4 flex items-center relative z-10 h-full"
     >

@@ -33,18 +33,18 @@
         </div>
         <div class="grid grid-cols-none lg:grid-cols-2 gap-8">
           <div>
-            <p class="text-ef-very-dark-blue">
+            <p class="text-ef-very-dark-blue mb-4">
               Mycelium is a network of thread-like structures called hyphae -
               they are the root structures of fungi.
             </p>
-          </div>
-          <div>
-            <p class="text-ef-very-dark-blue mb-4">
+            <p class="text-ef-very-dark-blue">
               EarthForm engineers a class of mycelium-based composites with
               unique formulas and processing conditions to create
               high-performance biomaterials for interior design, merchandising,
               construction, and art.
             </p>
+          </div>
+          <div>
             <p class="text-ef-very-dark-blue">
               It’s design, driven by nature and empowered by science.
             </p>
@@ -70,9 +70,9 @@
         </div>
       </div>
       <div>
-        <h2 class="text-ef-cobalt-blue mb-6">
-          Facilitating Thailand’s Bio-Circular-Green (BCG) strategy for climate
-          action.
+        <h2 class="text-ef-cobalt-blue mb-6 w-full sm:w-4/5">
+          <div>Facilitating Thailand's Bio-Circular-Green</div>
+          <div>(BCG) strategy for climate action.</div>
         </h2>
         <div class="grid grid-cols-none lg:grid-cols-2">
           <p class="text-ef-very-dark-blue">
@@ -117,7 +117,8 @@
       </div>
       <div class="grid gap-8">
         <h2 class="text-ef-cobalt-blue">
-          Community-based economic development helps us scale.
+          <div>Community-based economic</div>
+          <div>development helps us scale.</div>
         </h2>
         <div class="grid grid-cols-none sm:grid-cols-2">
           <p class="font-normal text-ef-very-dark-blue" cover>
